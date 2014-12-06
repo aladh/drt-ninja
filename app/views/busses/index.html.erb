@@ -2,6 +2,23 @@
 
 <ul>
 	<li>
-		<a href="/busses/110">110 Central Pickering</a>
+		<%= link_to "110 Central Pickering", buss_path(110), class: "bus-route" %>
 	</li>
 </ul>
+
+<div id="bus-stops">
+</div>
+
+<script id="bus-stops-template" type="text/x-handlebars-template">
+	<h2>Select Stop</h2>
+	<select class="bus-stop">
+		<option>
+		SELECT STOP
+		</option>
+		{{#each stop_name}}
+			<option>
+				{{this}}
+			</option>
+		{{/each}}
+	</select>
+</script>
