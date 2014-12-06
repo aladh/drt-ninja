@@ -1,0 +1,52 @@
+
+// After document has loaded
+$(document).ready(function() {
+	
+	// When bus route link is clicked
+	$(".bus-route").click(function() {
+		
+		// Stop link fron clicking through
+		event.preventDefault();
+
+		// Save context as jQery object
+		var self = $(this);
+		// Save href of clicked link
+		var href = self.attr("href");
+
+		// Ajax request for schedule JSON of clicked route
+		$.ajax({
+			url: href,
+			type: 'GET',
+			dataType: 'json'
+		}).done(function(data) {
+			
+			// After getting response
+			var template;
+
+			// Template source on index view
+			var source = $("#bus-stops-template").html();
+
+			// If data was received (data is JSON object for bus route)
+			if (data) {
+
+				// Store all stop names
+				var stop_names = _.keys(data)
+
+				// Create object to send to template
+				var context = {
+					stop_name: stop_names
+				}
+				template = Handlebars.compile(source);
+				var html    = template(context);
+				$("#bus-stops").html(html);
+			}
+		});
+	});
+
+	// When bus stop is changed selected
+	$("#bus-stops").on("change", ".bus-stop" ,function() {
+		// The selected stop
+		var stopName = $(".bus-stop option:selected").text();
+		console.log(stopName);
+	});
+});
