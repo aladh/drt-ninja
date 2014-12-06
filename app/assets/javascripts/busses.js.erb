@@ -1,0 +1,75 @@
+
+// After document has loaded
+$(document).ready(function() {
+	var currentSchedule;
+
+	// When bus route link is clicked
+	$(".bus-route").click(function() {
+		
+		// Stop link fron clicking through
+		event.preventDefault();
+
+		// Save context as jQery object
+		var self = $(this);
+		// Save href of clicked link
+		var href = self.attr("href");
+
+		// Ajax request for schedule JSON of clicked route
+		$.ajax({
+			url: href,
+			type: 'GET',
+			dataType: 'json'
+		}).done(function(data) {
+			
+			// After getting response
+			var template;
+
+			// Template source on index view
+			var source = $("#bus-stops-template").html();
+
+			// If data was received (data is JSON object for bus route)
+			if (data) {
+
+				// Store schedule
+				currentSchedule = data;
+
+				// Store all stop names
+				var stopNames = _.keys(currentSchedule);
+
+				// Create object to send to template
+				var context = {
+					stopName: stopNames
+				}
+				template = Handlebars.compile(source);
+				var html    = template(context);
+				$("#bus-stops").html(html);
+			}
+		});
+	});
+
+	// When bus stop is changed selected
+	$("#bus-stops").on("change", ".bus-stop" , function() {
+		// Get the name of selected stop
+		var stopName = $(".bus-stop option:selected").text();
+		console.log(stopName);
+
+		// Get the timings for the stop
+		var stopTimes = currentSchedule[stopName];
+		console.log(stopTimes);
+
+		// Build template
+		var template;
+
+		// Template source on index view
+		var source = $("#stop-times-template").html();
+
+		// Create object to send to template
+		var context = {
+			stopTime: stopTimes
+		}
+		template = Handlebars.compile(source);
+		var html    = template(context);
+		$("#stop-times").html(html);
+
+	});
+});
