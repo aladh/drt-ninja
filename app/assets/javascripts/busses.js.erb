@@ -51,11 +51,9 @@ $(document).ready(function() {
 	$("#bus-stops").on("change", ".bus-stop" , function() {
 		// Get the name of selected stop
 		var stopName = $(".bus-stop option:selected").text();
-		console.log(stopName);
-
+		
 		// Get the timings for the stop
 		var stopTimes = currentSchedule[stopName];
-		console.log(stopTimes);
 
 		// Build template
 		var template;
