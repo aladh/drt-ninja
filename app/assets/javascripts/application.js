@@ -13,4 +13,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require handlebars.js
+//= require underscore.js
 //= require_tree .
