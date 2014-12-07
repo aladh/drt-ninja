@@ -16,8 +16,8 @@
 	<h2>Select Stop</h2>
 	<select class="bus-stop">
 		<option>SELECT STOP</option>
-		{{#each stopName}}
-			<option>{{this}}</option>
+		{{#each stopNames}}
+			<option value="{{fullName}}">{{shortName}}</option>
 		{{/each}}
 	</select>
 </script>
