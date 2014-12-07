@@ -42,16 +42,13 @@ $(document).ready(function() {
 				});
 
 				// Create object to send to template
-				var context = {
-					stopNames: []
-				}
+				var context = { stopNames: [] }
 				for (var i = 0; i < fullStopNames.length; i++) {
 					context.stopNames[i] = {
 						shortName : shortStopNames[i],
 						fullName : fullStopNames[i]
 					}
 				}
-
 
 				// Compile and render template
 				template = Handlebars.compile(source);
