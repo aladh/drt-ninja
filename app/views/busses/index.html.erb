@@ -1,7 +1,7 @@
 <h1>DRT Bus Schedules</h1>
 
 <select class="bus-route">
-	<option>SELECT BUS ROUTE</option>
+	<option value=0>SELECT BUS ROUTE</option>
 	<% @bus_routes.each do |k,v| %>
 		<% name = "<option value=" + v + ">" + k + "</option>" %>
 		<%= raw name %>
