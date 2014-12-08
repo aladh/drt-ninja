@@ -3,16 +3,13 @@
 $(document).ready(function() {
 	var currentSchedule;
 
-	// When bus route link is clicked
-	$(".bus-route").click(function() {
-		
-		// Stop link fron clicking through
-		event.preventDefault();
+	// When bus route is changed
+	$(".bus-route").on("change", function() {
 
 		// Save context as jQery object
 		var self = $(this);
 		// Save href of clicked link
-		var href = self.attr("href");
+		var href = "/busses/" + $(".bus-route option:selected").attr("value");
 
 		// Ajax request for schedule JSON of clicked route
 		$.ajax({
@@ -58,7 +55,7 @@ $(document).ready(function() {
 		});
 	});
 
-	// When bus stop is changed selected
+	// When bus stop is changed
 	$("#bus-stops").on("change", ".bus-stop" , function() {
 		// Get the name of selected stop
 		var stopName = $(".bus-stop option:selected").attr("value");

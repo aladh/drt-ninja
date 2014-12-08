@@ -1,0 +1,808 @@
+{
+  "Stop Abbr: 02581 Whitby Go7 (301/318)": [
+    "7:30p",
+    "8:30p",
+    "9:30p",
+    "10:30p",
+    "11:30p",
+    "12:15x",
+    "1:05x",
+    "8:15p",
+    "9:15p",
+    "10:15p",
+    "11:15p",
+    "12:15x",
+    "1:00x",
+    "-",
+    "8:30p",
+    "9:30p",
+    "10:30p",
+    "11:30p",
+    "-",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 00166 BROCK @ ARTHUR n nsx": [
+    "7:31p",
+    "8:31p",
+    "9:31p",
+    "10:31p",
+    "11:31p",
+    "12:16x",
+    "-"
+  ],
+  "Stop Abbr: 00167 BROCK @ ST PETER n fs": [
+    "7:32p",
+    "8:32p",
+    "9:32p",
+    "10:32p",
+    "11:32p",
+    "12:17x",
+    "-"
+  ],
+  "Stop Abbr: 00153 BURNS @ ATHOL e fs": [
+    "7:33p",
+    "8:33p",
+    "9:33p",
+    "10:33p",
+    "11:33p",
+    "12:18x",
+    "-"
+  ],
+  "Stop Abbr: 00154 BURNS @ BILLINGS e ns": [
+    "7:34p",
+    "8:34p",
+    "9:34p",
+    "10:34p",
+    "11:34p",
+    "12:19x",
+    "-"
+  ],
+  "Stop Abbr: 00155 BURNS @ GARDEN e ns": [
+    "7:35p",
+    "8:35p",
+    "9:35p",
+    "10:35p",
+    "11:35p",
+    "12:20x",
+    "-"
+  ],
+  "Stop Abbr: 00001 GARDEN @ HYLAND n fs": [
+    "7:35p",
+    "8:35p",
+    "9:35p",
+    "10:35p",
+    "11:35p",
+    "12:20x",
+    "-"
+  ],
+  "Stop Abbr: 00002 GARDEN @ HYLAND n fsmb": [
+    "7:36p",
+    "8:36p",
+    "9:36p",
+    "10:36p",
+    "11:36p",
+    "12:21x",
+    "-"
+  ],
+  "Stop Abbr: 00003 GARDEN @ COLETTE  n fsx": [
+    "7:36p",
+    "8:36p",
+    "9:36p",
+    "10:36p",
+    "11:36p",
+    "12:21x",
+    "-"
+  ],
+  "Stop Abbr: 00004 GARDEN @ DUNDAS n ns": [
+    "7:37p",
+    "8:37p",
+    "9:37p",
+    "10:37p",
+    "11:37p",
+    "12:22x",
+    "-"
+  ],
+  "Stop Abbr: 00005 GARDEN @ DUNDAS n fs": [
+    "7:37p",
+    "8:37p",
+    "9:37p",
+    "10:37p",
+    "11:37p",
+    "12:22x",
+    "-"
+  ],
+  "Stop Abbr: 00006 GARDEN @ MARY  n fs": [
+    "7:38p",
+    "8:38p",
+    "9:38p",
+    "10:38p",
+    "11:38p",
+    "12:23x",
+    "-"
+  ],
+  "Stop Abbr: 00007 GARDEN @ MARTINET n fs": [
+    "7:39p",
+    "8:39p",
+    "9:39p",
+    "10:39p",
+    "11:39p",
+    "12:24x",
+    "-"
+  ],
+  "Stop Abbr: 00008 GARDEN @ BRADLEY  n fs": [
+    "7:40p",
+    "8:40p",
+    "9:40p",
+    "10:40p",
+    "11:40p",
+    "12:25x",
+    "-"
+  ],
+  "Stop Abbr: 00009 GARDEN @ MANNING  n ns": [
+    "7:40p",
+    "8:40p",
+    "9:40p",
+    "10:40p",
+    "11:40p",
+    "12:25x",
+    "-"
+  ],
+  "Stop Abbr: 00010 GARDEN @ BASSETT  n fs": [
+    "7:41p",
+    "8:41p",
+    "9:41p",
+    "10:41p",
+    "11:41p",
+    "12:26x",
+    "-"
+  ],
+  "Stop Abbr: 00011 GARDEN @ HEAVER n fs": [
+    "7:42p",
+    "8:42p",
+    "9:42p",
+    "10:42p",
+    "11:42p",
+    "12:27x",
+    "-"
+  ],
+  "Stop Abbr: 00012 GARDEN @ ROSSLAND n fsmb": [
+    "7:43p",
+    "8:43p",
+    "9:43p",
+    "10:43p",
+    "11:43p",
+    "12:28x",
+    "-"
+  ],
+  "Stop Abbr: 00013 GARDEN @ BASSETT  n fs": [
+    "7:43p",
+    "8:43p",
+    "9:43p",
+    "10:43p",
+    "11:43p",
+    "12:28x",
+    "-"
+  ],
+  "Stop Abbr: 00014 GARDEN @ DRYDEN n ns": [
+    "7:43p",
+    "8:43p",
+    "9:43p",
+    "10:43p",
+    "11:43p",
+    "12:28x",
+    "-"
+  ],
+  "Stop Abbr: 00015 GARDEN @ WILLOWBROOK n fsx": [
+    "7:44p",
+    "8:44p",
+    "9:44p",
+    "10:44p",
+    "11:44p",
+    "12:29x",
+    "-"
+  ],
+  "Stop Abbr: 00016 GARDEN @ MEADOWGLEN n nsmx": [
+    "7:45p",
+    "8:45p",
+    "9:45p",
+    "10:45p",
+    "11:45p",
+    "12:30x",
+    "-"
+  ],
+  "Stop Abbr: 00017 GARDEN @ CORK n ns": [
+    "7:46p",
+    "8:46p",
+    "9:46p",
+    "10:46p",
+    "11:46p",
+    "12:31x",
+    "-"
+  ],
+  "Stop Abbr: 00018 GARDEN @ TAUNTON  n ns": [
+    "7:46p",
+    "8:46p",
+    "9:46p",
+    "10:46p",
+    "11:46p",
+    "12:31x",
+    "-"
+  ],
+  "Stop Abbr: 00368 TAUNTON  @ GARDEN w fs": [
+    "7:47p",
+    "8:47p",
+    "9:47p",
+    "10:47p",
+    "11:47p",
+    "12:32x",
+    "-"
+  ],
+  "Stop Abbr: 00369 TAUNTON  @ MCKINNEY w ns": [
+    "7:47p",
+    "8:47p",
+    "9:47p",
+    "10:47p",
+    "11:47p",
+    "12:32x",
+    "-"
+  ],
+  "Stop Abbr: 00019 MCKINNEY @ BROADLEAF n nsx": [
+    "7:48p",
+    "8:48p",
+    "9:48p",
+    "10:48p",
+    "11:48p",
+    "12:33x",
+    "-"
+  ],
+  "Stop Abbr: 00489 ROBERT ATTERSLEY @ ARCHSTONE w fs": [
+    "7:50p",
+    "8:50p",
+    "9:50p",
+    "10:50p",
+    "11:50p",
+    "12:35x",
+    "-"
+  ],
+  "Stop Abbr: 00194 BALDWIN  @ ROBERT ATTERSLEY s fs": [
+    "7:50p",
+    "8:50p",
+    "9:50p",
+    "10:50p",
+    "11:50p",
+    "12:35x",
+    "-"
+  ],
+  "Stop Abbr: 00195 BALDWIN  @ BROADLEAF s nsx": [
+    "7:50p",
+    "8:50p",
+    "9:50p",
+    "10:50p",
+    "11:50p",
+    "12:35x",
+    "-"
+  ],
+  "Stop Abbr: 00196 BALDWIN @ TAUNTON  s ns": [
+    "7:51p",
+    "8:51p",
+    "9:51p",
+    "10:51p",
+    "11:51p",
+    "12:36x",
+    "-"
+  ],
+  "Stop Abbr: 00370 TAUNTON @ VALLEYWOOD w nsx": [
+    "7:51p",
+    "8:51p",
+    "9:51p",
+    "10:51p",
+    "11:51p",
+    "12:36x",
+    "-"
+  ],
+  "Stop Abbr: 00371 TAUNTON  @ COCHRANE w ns": [
+    "7:52p",
+    "8:52p",
+    "9:52p",
+    "10:52p",
+    "11:52p",
+    "12:37x",
+    "-"
+  ],
+  "Stop Abbr: 00120 COUNTRY  @ TAUNTON  s fs": [
+    "7:53p",
+    "8:53p",
+    "9:53p",
+    "10:53p",
+    "11:53p",
+    "12:38x",
+    "-"
+  ],
+  "Stop Abbr: 00121 COUNTRY @ PARDON s fs": [
+    "7:54p",
+    "8:54p",
+    "9:54p",
+    "10:54p",
+    "11:54p",
+    "12:39x",
+    "-"
+  ],
+  "Stop Abbr: 00122 COUNTRY @ TWIN STREAMS s ns": [
+    "7:55p",
+    "8:55p",
+    "9:55p",
+    "10:55p",
+    "11:55p",
+    "12:40x",
+    "-"
+  ],
+  "Stop Abbr: 00123 COUNTRY @ CONSTANCE s fs": [
+    "7:55p",
+    "8:55p",
+    "9:55p",
+    "10:55p",
+    "11:55p",
+    "12:40x",
+    "-"
+  ],
+  "Stop Abbr: 00124 COUNTRY @ TIDEWATER s fs": [
+    "7:56p",
+    "8:56p",
+    "9:56p",
+    "10:56p",
+    "11:56p",
+    "12:41x",
+    "-"
+  ],
+  "Stop Abbr: 00472 ROSSLAND @ COUNTRY  e fsx": [
+    "7:57p",
+    "8:57p",
+    "9:57p",
+    "10:57p",
+    "11:57p",
+    "12:42x",
+    "-"
+  ],
+  "Stop Abbr: 00473 ROSSLAND @ COCHRANE e ns": [
+    "7:57p",
+    "8:57p",
+    "9:57p",
+    "10:57p",
+    "11:57p",
+    "12:42x",
+    "-"
+  ],
+  "Stop Abbr: 00132 COCHRANE @ VALLEY s ns": [
+    "7:58p",
+    "8:58p",
+    "9:58p",
+    "10:58p",
+    "11:58p",
+    "12:43x",
+    "-"
+  ],
+  "Stop Abbr: 00133 COCHRANE @ WHITE ASH s nsx": [
+    "7:58p",
+    "8:58p",
+    "9:58p",
+    "10:58p",
+    "11:58p",
+    "12:43x",
+    "-"
+  ],
+  "Stop Abbr: 00134 BONACORD @ COCHRANE w fs": [
+    "8:00p",
+    "9:00p",
+    "10:00p",
+    "11:00p",
+    "12:00x",
+    "12:45x",
+    "-"
+  ],
+  "Stop Abbr: 00135 BONACORD @ HOLLIDAY w ns": [
+    "8:00p",
+    "9:00p",
+    "10:00p",
+    "11:00p",
+    "12:00x",
+    "12:45x",
+    "-"
+  ],
+  "Stop Abbr: 00136 BONACORD @ FROST w ns": [
+    "8:01p",
+    "9:01p",
+    "10:01p",
+    "11:01p",
+    "12:01x",
+    "12:46x",
+    "-"
+  ],
+  "Stop Abbr: 00137 BONACORD @ MCQUAY w ns": [
+    "8:02p",
+    "9:02p",
+    "10:02p",
+    "11:02p",
+    "12:02x",
+    "12:47x",
+    "-"
+  ],
+  "Stop Abbr: 00138 MCQUAY @ ROAN s fs": [
+    "8:03p",
+    "9:03p",
+    "10:03p",
+    "11:03p",
+    "12:03x",
+    "12:48x",
+    "-"
+  ],
+  "Stop Abbr: 00139 MCQUAY @ KENNETT  s ns": [
+    "8:03p",
+    "9:03p",
+    "10:03p",
+    "11:03p",
+    "12:03x",
+    "12:48x",
+    "-"
+  ],
+  "Stop Abbr: 00140 MCQUAY @ MOONSTONE s fs": [
+    "8:04p",
+    "9:04p",
+    "10:04p",
+    "11:04p",
+    "12:04x",
+    "12:49x",
+    "-"
+  ],
+  "Stop Abbr: 00141 MCQUAY @ ALLAYDEN s fsmb": [
+    "8:05p",
+    "9:05p",
+    "10:05p",
+    "11:05p",
+    "12:05x",
+    "12:50x",
+    "-"
+  ],
+  "Stop Abbr: 00142 JEFFERY @ DUNDAS s fs": [
+    "8:05p",
+    "9:05p",
+    "10:05p",
+    "11:05p",
+    "12:05x",
+    "12:50x",
+    "-"
+  ],
+  "Stop Abbr: 00143 JEFFERY  @ MICHAEL  s ns": [
+    "8:06p",
+    "9:06p",
+    "10:06p",
+    "11:06p",
+    "12:06x",
+    "12:51x",
+    "-"
+  ],
+  "Stop Abbr: 00144 MICHAEL @ MCFARLANE s fs": [
+    "8:06p",
+    "9:06p",
+    "10:06p",
+    "11:06p",
+    "12:06x",
+    "12:51x",
+    "-"
+  ],
+  "Stop Abbr: 00145 MICHAEL @ EVANS s ns": [
+    "8:07p",
+    "9:07p",
+    "10:07p",
+    "11:07p",
+    "12:07x",
+    "12:52x",
+    "-"
+  ],
+  "Stop Abbr: 00146 MICHAEL  @ MARBURY  e nsx": [
+    "8:07p",
+    "9:07p",
+    "10:07p",
+    "11:07p",
+    "12:07x",
+    "12:52x",
+    "-"
+  ],
+  "Stop Abbr: 00147 MICHAEL @ HARPER e nsx": [
+    "8:08p",
+    "9:08p",
+    "10:08p",
+    "11:08p",
+    "12:08x",
+    "12:53x",
+    "-"
+  ],
+  "Stop Abbr: 00148 MICHAEL @ BURNS s ns": [
+    "8:09p",
+    "9:09p",
+    "10:09p",
+    "11:09p",
+    "12:09x",
+    "12:54x",
+    "-"
+  ],
+  "Stop Abbr: 00149 BURNS @ MICHAEL e fsx": [
+    "8:09p",
+    "9:09p",
+    "10:09p",
+    "11:09p",
+    "12:09x",
+    "12:54x",
+    "-"
+  ],
+  "Stop Abbr: 00150 BURNS @ ANNES e ns": [
+    "8:10p",
+    "9:10p",
+    "10:10p",
+    "11:10p",
+    "12:10x",
+    "12:55x",
+    "-"
+  ],
+  "Stop Abbr: 00151 BURNS @ HENRY e ns": [
+    "8:11p",
+    "9:11p",
+    "10:11p",
+    "11:11p",
+    "12:11x",
+    "12:56x",
+    "-"
+  ],
+  "Stop Abbr: 00152 BURNS @ CENTRE e fs": [
+    "8:11p",
+    "9:11p",
+    "10:11p",
+    "11:11p",
+    "12:11x",
+    "12:56x",
+    "-"
+  ],
+  "Stop Abbr: 00216 BROCK ST @ BURNS ST s fs": [
+    "8:12p",
+    "9:12p",
+    "10:12p",
+    "11:12p",
+    "12:12x",
+    "12:57x",
+    "-"
+  ],
+  "Stop Abbr: 00217 BROCK ST @ ARTHUR S s ns": [
+    "8:13p",
+    "9:13p",
+    "10:13p",
+    "11:13p",
+    "12:13x",
+    "12:58x",
+    "-"
+  ],
+  "Stop Abbr: 00042 VICTORIA @ BROCK w fs": [
+    "8:15p",
+    "9:15p",
+    "10:15p",
+    "11:15p",
+    "-",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 00043 VICTORIA @ HENRY w ns": [
+    "8:16p",
+    "9:16p",
+    "10:16p",
+    "11:16p",
+    "-",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 00044 VICTORIA @ HENRY w fsmb": [
+    "8:16p",
+    "9:16p",
+    "10:16p",
+    "11:16p",
+    "-",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 90007 VICTORIA @ GORDON S w ns": [
+    "8:16p",
+    "9:16p",
+    "10:16p",
+    "11:16p",
+    "-",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 00045 VICTORIA @ MONTECORTE w ns": [
+    "8:17p",
+    "9:17p",
+    "10:17p",
+    "11:17p",
+    "-",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 00046 VICTORIA @ MONTECORTE w fs": [
+    "8:17p",
+    "9:17p",
+    "10:17p",
+    "11:17p",
+    "-",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 00047 SEABOARD @ WHITBY SHORES s ns": [
+    "8:17p",
+    "9:17p",
+    "10:17p",
+    "11:17p",
+    "-",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 00048 WHITBY SHORES @ HAVENWOOD sw fs": [
+    "8:18p",
+    "9:18p",
+    "10:18p",
+    "11:18p",
+    "-",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 00049 WHITBY SHORES @ ANCHORAGE s nsx": [
+    "8:18p",
+    "9:18p",
+    "10:18p",
+    "11:18p",
+    "-",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 00050 WHITBY SHORES @ PORTAGE  s fsx": [
+    "8:18p",
+    "9:18p",
+    "10:18p",
+    "11:18p",
+    "-",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 00051 WHITBY SHORES @ BREAKWATER se fsx": [
+    "8:19p",
+    "9:19p",
+    "10:19p",
+    "11:19p",
+    "-",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 00052 WHITBY SHORES @ LIGHTHOUSE e fsx": [
+    "8:19p",
+    "9:19p",
+    "10:19p",
+    "11:19p",
+    "-",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 00053 WHITBY SHORES @ FORECASTLE e fsx": [
+    "8:19p",
+    "9:19p",
+    "10:19p",
+    "11:19p",
+    "-",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 00054 SCADDING @ WHITBY SHORES e fs": [
+    "8:20p",
+    "9:20p",
+    "10:20p",
+    "11:20p",
+    "-",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 00055 SCADDING @ HANLAN e ns": [
+    "8:20p",
+    "9:20p",
+    "10:20p",
+    "11:20p",
+    "-",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 00056 SCADDING @ GORDON e ns": [
+    "8:20p",
+    "9:20p",
+    "10:20p",
+    "11:20p",
+    "-",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 00057 GORDON @ SCADDING s fsmb": [
+    "8:21p",
+    "9:21p",
+    "10:21p",
+    "11:21p",
+    "-",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 00058 ONTARIO SHORES": [
+    "8:22p",
+    "9:22p",
+    "10:22p",
+    "11:22p",
+    "-",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 00059 GORDON @ SCADDING n nsmb": [
+    "8:23p",
+    "9:23p",
+    "10:23p",
+    "11:23p",
+    "-",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 00060 GORDON @ SCADDING n fsmx": [
+    "8:25p",
+    "9:25p",
+    "10:25p",
+    "11:25p",
+    "-",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 00061 GORDON @ WHITBY SHORES n fsx": [
+    "8:26p",
+    "9:26p",
+    "10:26p",
+    "11:26p",
+    "-",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 00062 VICTORIA @ GORDON e fsmb": [
+    "8:27p",
+    "9:27p",
+    "10:27p",
+    "11:27p",
+    "-",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 00063 VICTORIA @ HENRY e fs": [
+    "8:27p",
+    "9:27p",
+    "10:27p",
+    "11:27p",
+    "-",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 00064 VICTORIA @ CHARLES  e ns": [
+    "8:28p",
+    "9:28p",
+    "10:28p",
+    "11:28p",
+    "-",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: ESend Evening Shuttle End Time": [
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "1:35x"
+  ]
+}

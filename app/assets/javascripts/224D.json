@@ -1,0 +1,336 @@
+{
+  "Stop Abbr: 02569 AJAX GO": [
+    "8:05p",
+    "9:05p",
+    "10:05p",
+    "11:05p",
+    "12:05x",
+    "8:42p",
+    "9:42p",
+    "10:42p",
+    "11:42p",
+    "-"
+  ],
+  "Stop Abbr: 02331 FAIRALL  @ WESTNEY  e fs": [
+    "8:05p",
+    "9:05p",
+    "10:05p",
+    "11:05p",
+    "-"
+  ],
+  "Stop Abbr: 02332 FAIRALL  @ MCMASTER e fs": [
+    "8:07p",
+    "9:07p",
+    "10:07p",
+    "11:07p",
+    "-"
+  ],
+  "Stop Abbr: 02333 FAIRALL  @ DOWTY RD e ns": [
+    "8:08p",
+    "9:08p",
+    "10:08p",
+    "11:08p",
+    "-"
+  ],
+  "Stop Abbr: 02334 HUNT ST @ MONARCH  e fs": [
+    "8:10p",
+    "9:10p",
+    "10:10p",
+    "11:10p",
+    "-"
+  ],
+  "Stop Abbr: 02335 HUNT ST @ HARWOOD  e ns": [
+    "8:12p",
+    "9:12p",
+    "10:12p",
+    "11:12p",
+    "-"
+  ],
+  "Stop Abbr: 02077 HARWOOD  @ KINGS CR s fsmx": [
+    "8:12p",
+    "9:12p",
+    "10:12p",
+    "11:12p",
+    "-"
+  ],
+  "Stop Abbr: 02078 HARWOOD  @ BAYLY ST s ns": [
+    "8:12p",
+    "9:12p",
+    "10:12p",
+    "11:12p",
+    "-"
+  ],
+  "Stop Abbr: 02079 HARWOOD  @ FALBY CT s fsx": [
+    "8:13p",
+    "9:13p",
+    "10:13p",
+    "11:13p",
+    "-"
+  ],
+  "Stop Abbr: 02080 HARWOOD  @ EMPEROR  s fsmx": [
+    "8:14p",
+    "9:14p",
+    "10:14p",
+    "11:14p",
+    "-"
+  ],
+  "Stop Abbr: 02081 HARWOOD  @ CLEMENTS s ns": [
+    "8:14p",
+    "9:14p",
+    "10:14p",
+    "11:14p",
+    "-"
+  ],
+  "Stop Abbr: 02082 HARWOOD  @ WESTNEY  s nsmb": [
+    "8:15p",
+    "9:15p",
+    "10:15p",
+    "11:15p",
+    "-"
+  ],
+  "Stop Abbr: 02026 DREYER @ PARKER e fs": [
+    "8:15p",
+    "9:15p",
+    "10:15p",
+    "11:15p",
+    "-"
+  ],
+  "Stop Abbr: 02027 DREYER D @ EVERETT  e ns": [
+    "8:16p",
+    "9:16p",
+    "10:16p",
+    "11:16p",
+    "-"
+  ],
+  "Stop Abbr: 02028 DREYER D @ CLEMENTS se fsx": [
+    "8:16p",
+    "9:16p",
+    "10:16p",
+    "11:16p",
+    "-"
+  ],
+  "Stop Abbr: 02029 CLOVER RIDGE @ BRYANT sw ns": [
+    "8:17p",
+    "9:17p",
+    "10:17p",
+    "11:17p",
+    "-"
+  ],
+  "Stop Abbr: 02030 CLOVER RIDGE @ GREGORY sw fsx": [
+    "8:17p",
+    "9:17p",
+    "10:17p",
+    "11:17p",
+    "-"
+  ],
+  "Stop Abbr: 02031 CLOVER RIDGE @ CRAWFORD w nsx": [
+    "8:18p",
+    "9:18p",
+    "10:18p",
+    "11:18p",
+    "-"
+  ],
+  "Stop Abbr: 02032 CLOVER RIDGE @ DORLING w ns": [
+    "8:18p",
+    "9:18p",
+    "10:18p",
+    "11:18p",
+    "-"
+  ],
+  "Stop Abbr: 02058 CLOVER RIDGE @ HARWOOD  w ns": [
+    "8:19p",
+    "9:19p",
+    "10:19p",
+    "11:19p",
+    "-"
+  ],
+  "Stop Abbr: 02059 CLOVER RIDGE @ PITTMANN s ns": [
+    "8:19p",
+    "9:19p",
+    "10:19p",
+    "11:19p",
+    "-"
+  ],
+  "Stop Abbr: 02060 CLOVER RIDGE @ BOLLAND s ns": [
+    "8:20p",
+    "9:20p",
+    "10:20p",
+    "11:20p",
+    "-"
+  ],
+  "Stop Abbr: 02061 CLOVER RIDGE @ LAKE DRIVEWAY s ns": [
+    "8:20p",
+    "9:20p",
+    "10:20p",
+    "11:20p",
+    "-"
+  ],
+  "Stop Abbr: 02062 LAKE DRIVEWAY @ HARWOOD  e nsx": [
+    "8:21p",
+    "9:21p",
+    "10:21p",
+    "11:21p",
+    "-"
+  ],
+  "Stop Abbr: 02063 HARWOOD  @ MCRAE RD n ns": [
+    "8:21p",
+    "9:21p",
+    "10:21p",
+    "11:21p",
+    "-"
+  ],
+  "Stop Abbr: 02064 HARWOOD @ CLOVER RIDGE n ns": [
+    "8:22p",
+    "9:22p",
+    "10:22p",
+    "11:22p",
+    "-"
+  ],
+  "Stop Abbr: 02065 HARWOOD  @ GORTON R n ns": [
+    "8:22p",
+    "9:22p",
+    "10:22p",
+    "11:22p",
+    "-"
+  ],
+  "Stop Abbr: 02066 HARWOOD  @ DREYER D n ns": [
+    "8:23p",
+    "9:23p",
+    "10:23p",
+    "11:23p",
+    "-"
+  ],
+  "Stop Abbr: 02011 RANDS RD @ AGATE RD w fsx": [
+    "8:24p",
+    "9:24p",
+    "10:24p",
+    "11:24p",
+    "-"
+  ],
+  "Stop Abbr: 02012 RANDS RD @ SWANSTON w fsx": [
+    "8:25p",
+    "9:25p",
+    "10:25p",
+    "11:25p",
+    "-"
+  ],
+  "Stop Abbr: 02719 RANDS RD @ FINLEY A w ns": [
+    "8:26p",
+    "9:26p",
+    "10:26p",
+    "11:26p",
+    "-"
+  ],
+  "Stop Abbr: 02013 FINLEY A @ BASHFORD s ns": [
+    "8:26p",
+    "9:26p",
+    "10:26p",
+    "11:26p",
+    "-"
+  ],
+  "Stop Abbr: 02014 FINLEY A @ PARKES D se ns": [
+    "8:27p",
+    "9:27p",
+    "10:27p",
+    "11:27p",
+    "-"
+  ],
+  "Stop Abbr: 02015 FINLEY A @ BURDEN C se fsx": [
+    "8:28p",
+    "9:28p",
+    "10:28p",
+    "11:28p",
+    "-"
+  ],
+  "Stop Abbr: 02016 FINLEY @ LAKE DRIVEWAY s ns": [
+    "8:29p",
+    "9:29p",
+    "10:29p",
+    "11:29p",
+    "-"
+  ],
+  "Stop Abbr: 02018 LAKE DRIVEWAY @ LOVE w fs": [
+    "8:30p",
+    "9:30p",
+    "10:30p",
+    "11:30p",
+    "-"
+  ],
+  "Stop Abbr: 02019 LAKE DRIVEWAY @ BARTLETT w ns": [
+    "8:30p",
+    "9:30p",
+    "10:30p",
+    "11:30p",
+    "-"
+  ],
+  "Stop Abbr: 02020 LAKE DRIVEWAY @ PARKES nw ns": [
+    "8:31p",
+    "9:31p",
+    "10:31p",
+    "11:31p",
+    "-"
+  ],
+  "Stop Abbr: 02021 LAKE DRI @ SIMONDS  nw fs": [
+    "8:32p",
+    "9:32p",
+    "10:32p",
+    "11:32p",
+    "-"
+  ],
+  "Stop Abbr: 02022 LAKE DRIVEWAY @ HAWKINS  n ns": [
+    "8:33p",
+    "9:33p",
+    "10:33p",
+    "11:33p",
+    "-"
+  ],
+  "Stop Abbr: 02023 LAKE DRIVEWAY @ KIPLING n ns": [
+    "8:34p",
+    "9:34p",
+    "10:34p",
+    "11:34p",
+    "-"
+  ],
+  "Stop Abbr: 02024 LAKE DRIVEWAY @ WALKER e fs": [
+    "8:35p",
+    "9:35p",
+    "10:35p",
+    "11:35p",
+    "-"
+  ],
+  "Stop Abbr: 02277 WESTNEY  @ CLEMENTS n ns": [
+    "8:36p",
+    "9:36p",
+    "10:36p",
+    "11:36p",
+    "-"
+  ],
+  "Stop Abbr: 02278 WESTNEY  @ FULLER R n ns": [
+    "8:38p",
+    "9:38p",
+    "10:38p",
+    "11:38p",
+    "-"
+  ],
+  "Stop Abbr: 02279 WESTNEY  @ BAYLY ST n ns": [
+    "8:38p",
+    "9:38p",
+    "10:38p",
+    "11:38p",
+    "-"
+  ],
+  "Stop Abbr: 02280 WESTNEY  @ BAYLY ST n fs": [
+    "8:39p",
+    "9:39p",
+    "10:39p",
+    "11:39p",
+    "-"
+  ],
+  "Stop Abbr: 02281 WESTNEY  @ OBRIEN C n fsx": [
+    "8:40p",
+    "9:40p",
+    "10:40p",
+    "11:40p",
+    "-"
+  ]
+}
