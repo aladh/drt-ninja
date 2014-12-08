@@ -1,14 +1,17 @@
-// Declare variable for current schedule
-var currentSchedule;
-var stopValue = null;
+// After document has loaded
+$(document).ready(function() {
+	
+	// Declare variables
+	var currentSchedule;
+	var stopValue = null;
 
-// Log item to console
-function debug(data) {
-	console.log(data);
-}
+	// Log item to console
+	function debug(data) {
+		console.log(data);
+	}
 
-// Get schedule based on route and day selection in DOM and render template
-function getSchedule() {
+	// Get schedule based on route and day selection in DOM and render template
+	function getSchedule() {
 
 		// Weekday/weekend schedule
 		var day = $(".days input:checked").attr("value");
@@ -74,12 +77,7 @@ function getSchedule() {
 				}
 			}
 		});
-}
-
-// After document has loaded
-$(document).ready(function() {
-	// Declare variables
-	
+	}
 
 	// When bus route is changed
 	$(".bus-route").on("change", function() {
