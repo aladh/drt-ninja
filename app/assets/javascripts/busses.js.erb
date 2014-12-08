@@ -67,6 +67,9 @@ $(document).ready(function() {
 
 	// When bus route is changed
 	$(".bus-route").on("change", function() {
+		// Hide stop times if showing
+		$("#stop-times").html("");
+
 		// Check for no option selected
 		if ($(".bus-route option:selected").attr("value") != 0) {
 			getSchedule();	
@@ -103,5 +106,5 @@ $(document).ready(function() {
 		var html    = template(context);
 		$("#stop-times").html(html);
 	});
-	
+
 });
