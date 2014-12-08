@@ -1,0 +1,335 @@
+{
+  "Stop Abbr: 02556 PICKERING GO": [
+    "10:00a",
+    "11:00a",
+    "12:00p",
+    "1:00p",
+    "2:00p",
+    "3:00p",
+    "4:00p"
+  ],
+  "Stop Abbr: 01772 BAYLY @ ST MARTINS w nsx": [
+    "10:01a",
+    "11:01a",
+    "12:01p",
+    "1:01p",
+    "2:01p",
+    "3:01p",
+    "4:01p"
+  ],
+  "Stop Abbr: 01773 BAYLY ST @ BEGLEY S w fsx": [
+    "10:02a",
+    "11:02a",
+    "12:02p",
+    "1:02p",
+    "2:02p",
+    "3:02p",
+    "4:02p"
+  ],
+  "Stop Abbr: 01774 BAYLY @ WEST SHORE w nsmx": [
+    "10:03a",
+    "11:03a",
+    "12:03p",
+    "1:03p",
+    "2:03p",
+    "3:03p",
+    "4:03p"
+  ],
+  "Stop Abbr: 01775 BAYLY @ WEST SHORE w nsx": [
+    "10:03a",
+    "11:03a",
+    "12:03p",
+    "1:03p",
+    "2:03p",
+    "3:03p",
+    "4:03p"
+  ],
+  "Stop Abbr: 01645 WEST SHORE @ VISTULA  s fsx": [
+    "10:04a",
+    "11:04a",
+    "12:04p",
+    "1:04p",
+    "2:04p",
+    "3:04p",
+    "4:04p"
+  ],
+  "Stop Abbr: 01662 WEST SHORE @ CECYLIA  s fsx": [
+    "10:04a",
+    "11:04a",
+    "12:04p",
+    "1:04p",
+    "2:04p",
+    "3:04p",
+    "4:04p"
+  ],
+  "Stop Abbr: 01663 WEST SHORE @ SAMFORD  s fs": [
+    "10:04a",
+    "11:04a",
+    "12:04p",
+    "1:04p",
+    "2:04p",
+    "3:04p",
+    "4:04p"
+  ],
+  "Stop Abbr: 01664 WEST SHORE @ BREEZY s nsx": [
+    "10:05a",
+    "11:05a",
+    "12:05p",
+    "1:05p",
+    "2:05p",
+    "3:05p",
+    "4:05p"
+  ],
+  "Stop Abbr: 01685 OKLAHOMA @ WEST SHORE w fs": [
+    "10:06a",
+    "11:06a",
+    "12:06p",
+    "1:06p",
+    "2:06p",
+    "3:06p",
+    "4:06p"
+  ],
+  "Stop Abbr: 01686 OKLAHOMA DR @ HILLVIEW CRES w nsMB": [
+    "10:06a",
+    "11:06a",
+    "12:06p",
+    "1:06p",
+    "2:06p",
+    "3:06p",
+    "4:06p"
+  ],
+  "Stop Abbr: 01687 OKLAHOMA DR @ HILLCREST RD w ns": [
+    "10:06a",
+    "11:06a",
+    "12:06p",
+    "1:06p",
+    "2:06p",
+    "3:06p",
+    "4:06p"
+  ],
+  "Stop Abbr: 01661 WHITES RD @ BAYLY ST n ns": [
+    "10:08a",
+    "11:08a",
+    "12:08p",
+    "1:08p",
+    "2:08p",
+    "3:08p",
+    "4:08p"
+  ],
+  "Stop Abbr: 01743 WHITES R @ SHEPPARD n ns": [
+    "10:10a",
+    "11:10a",
+    "12:10p",
+    "1:10p",
+    "2:10p",
+    "3:10p",
+    "4:10p"
+  ],
+  "Stop Abbr: 01744 WHITES RD @ BRIAR WOOD GT n nsmb": [
+    "10:10a",
+    "11:10a",
+    "12:10p",
+    "1:10p",
+    "2:10p",
+    "3:10p",
+    "4:10p"
+  ],
+  "Stop Abbr: 01745 WHITES @ BRIAR WOOD n ns": [
+    "10:11a",
+    "11:11a",
+    "12:11p",
+    "1:11p",
+    "2:11p",
+    "3:11p",
+    "4:11p"
+  ],
+  "Stop Abbr: 01746 WHITES R @ STROUDS  n ns": [
+    "10:11a",
+    "11:11a",
+    "12:11p",
+    "1:11p",
+    "2:11p",
+    "3:11p",
+    "4:11p"
+  ],
+  "Stop Abbr: 01747 WHITES RD @ NEW ST n ns": [
+    "10:12a",
+    "11:12a",
+    "12:12p",
+    "1:12p",
+    "2:12p",
+    "3:12p",
+    "4:12p"
+  ],
+  "Stop Abbr: 01748 WHITES RD @ FINCH AVE n nsmb": [
+    "10:13a",
+    "11:13a",
+    "12:13p",
+    "1:13p",
+    "2:13p",
+    "3:13p",
+    "4:13p"
+  ],
+  "Stop Abbr: 01749 WHITES R @ FINCH AV n ns": [
+    "10:14a",
+    "11:14a",
+    "12:14p",
+    "1:14p",
+    "2:14p",
+    "3:14p",
+    "4:14p"
+  ],
+  "Stop Abbr: 01751 WHITES @ SUNBIRD TRAIL s fs": [
+    "10:16a",
+    "11:16a",
+    "12:16p",
+    "1:16p",
+    "2:16p",
+    "3:16p",
+    "4:16p"
+  ],
+  "Stop Abbr: 01752 WHITES RD @ AMARETTO AVE s ns": [
+    "10:16a",
+    "11:16a",
+    "12:16p",
+    "1:16p",
+    "2:16p",
+    "3:16p",
+    "4:16p"
+  ],
+  "Stop Abbr: 01885 FINCH @ ERIN GATE e fsx": [
+    "10:18a",
+    "11:18a",
+    "12:18p",
+    "1:18p",
+    "2:18p",
+    "3:18p",
+    "4:18p"
+  ],
+  "Stop Abbr: 01886 FINCH AV @ DARWIN D e fsx": [
+    "10:18a",
+    "11:18a",
+    "12:18p",
+    "1:18p",
+    "2:18p",
+    "3:18p",
+    "4:18p"
+  ],
+  "Stop Abbr: 01887 FINCH AV @ FAIRPORT e ns": [
+    "10:19a",
+    "11:19a",
+    "12:19p",
+    "1:19p",
+    "2:19p",
+    "3:19p",
+    "4:19p"
+  ],
+  "Stop Abbr: 01888 FINCH @ HUNTSMILL e ns": [
+    "10:19a",
+    "11:19a",
+    "12:19p",
+    "1:19p",
+    "2:19p",
+    "3:19p",
+    "4:19p"
+  ],
+  "Stop Abbr: 01889 FINCH @ DUNCANNON e fsx": [
+    "10:20a",
+    "11:20a",
+    "12:20p",
+    "1:20p",
+    "2:20p",
+    "3:20p",
+    "4:20p"
+  ],
+  "Stop Abbr: 01890 FINCH AV @ DIXIE RD e ns": [
+    "10:21a",
+    "11:21a",
+    "12:21p",
+    "1:21p",
+    "2:21p",
+    "3:21p",
+    "4:21p"
+  ],
+  "Stop Abbr: 01891 FINCH AV @ BOWLER D e fs": [
+    "10:22a",
+    "11:22a",
+    "12:22p",
+    "1:22p",
+    "2:22p",
+    "3:22p",
+    "4:22p"
+  ],
+  "Stop Abbr: 01893 FINCH @ FOREST PARK e nsx": [
+    "10:23a",
+    "11:23a",
+    "12:23p",
+    "1:23p",
+    "2:23p",
+    "3:23p",
+    "4:23p"
+  ],
+  "Stop Abbr: 01894 FINCH @ ROSEFIELD e ns": [
+    "10:24a",
+    "11:24a",
+    "12:24p",
+    "1:24p",
+    "2:24p",
+    "3:24p",
+    "4:24p"
+  ],
+  "Stop Abbr: 01895 FINCH @ VALLEY FARM e ns": [
+    "10:25a",
+    "11:25a",
+    "12:25p",
+    "1:25p",
+    "2:25p",
+    "3:25p",
+    "4:25p"
+  ],
+  "Stop Abbr: 01865 VALLEY FARM @ THE ESPLANADE N n nsx": [
+    "10:30a",
+    "11:30a",
+    "12:30p",
+    "1:30p",
+    "2:30p",
+    "3:30p",
+    "4:30p"
+  ],
+  "Stop Abbr: 01917 GLENANNA @ THE ESPLANADE s nsx": [
+    "10:30a",
+    "11:30a",
+    "12:30p",
+    "1:30p",
+    "2:30p",
+    "3:30p",
+    "4:30p"
+  ],
+  "Stop Abbr: 01950 PICKERING PARKWAY @ GLENANNA w fsmb": [
+    "10:32a",
+    "11:32a",
+    "12:32p",
+    "1:32p",
+    "2:32p",
+    "3:32p",
+    "4:32p"
+  ],
+  "Stop Abbr: 01951 PICKERING PKWAY @ LIVERPOOL nw nsmb": [
+    "10:32a",
+    "11:32a",
+    "12:32p",
+    "1:32p",
+    "2:32p",
+    "3:32p",
+    "4:32p"
+  ],
+  "Stop Abbr: 02555 PICKERING GO": [
+    "10:37a",
+    "11:37a",
+    "12:37p",
+    "1:37p",
+    "2:37p",
+    "3:37p",
+    "4:37p"
+  ]
+}

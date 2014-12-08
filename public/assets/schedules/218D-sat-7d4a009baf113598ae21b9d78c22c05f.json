@@ -1,0 +1,520 @@
+{
+  "Stop Abbr: 02569 AJAX GO": [
+    "7:05p",
+    "8:05p",
+    "9:05p",
+    "10:05p",
+    "11:05p",
+    "12:05x",
+    "7:46p",
+    "8:46p",
+    "9:46p",
+    "10:46p",
+    "11:46p",
+    "12:46x"
+  ],
+  "Stop Abbr: 02331 FAIRALL  @ WESTNEY  e fs": [
+    "7:06p",
+    "8:06p",
+    "9:06p",
+    "10:06p",
+    "11:06p",
+    "12:06x"
+  ],
+  "Stop Abbr: 02332 FAIRALL  @ MCMASTER e fs": [
+    "7:07p",
+    "8:07p",
+    "9:07p",
+    "10:07p",
+    "11:07p",
+    "12:07x"
+  ],
+  "Stop Abbr: 02333 FAIRALL  @ DOWTY RD e ns": [
+    "7:09p",
+    "8:09p",
+    "9:09p",
+    "10:09p",
+    "11:09p",
+    "12:09x"
+  ],
+  "Stop Abbr: 02350 STATION  @ MILLS RD e ns": [
+    "7:11p",
+    "8:11p",
+    "9:11p",
+    "10:11p",
+    "11:11p",
+    "12:11x"
+  ],
+  "Stop Abbr: 02351 STATION @ COMMERCIAL e nsmb": [
+    "7:11p",
+    "8:11p",
+    "9:11p",
+    "10:11p",
+    "11:11p",
+    "12:11x"
+  ],
+  "Stop Abbr: 02352 STATION  @ HARWOOD  e ns": [
+    "7:13p",
+    "8:13p",
+    "9:13p",
+    "10:13p",
+    "11:13p",
+    "12:13x"
+  ],
+  "Stop Abbr: 02342 KINGS CR @ EXETER R e ns": [
+    "7:14p",
+    "8:14p",
+    "9:14p",
+    "10:14p",
+    "11:14p",
+    "12:14x"
+  ],
+  "Stop Abbr: 02343 KINGS CR @ CHURCHILL e ns": [
+    "7:14p",
+    "8:14p",
+    "9:14p",
+    "10:14p",
+    "11:14p",
+    "12:14x"
+  ],
+  "Stop Abbr: 02344 KINGS CR @ GLENWOOD se ns": [
+    "7:15p",
+    "8:15p",
+    "9:15p",
+    "10:15p",
+    "11:15p",
+    "12:15x"
+  ],
+  "Stop Abbr: 02345 KINGS CR @ PARRY RD s nsx": [
+    "7:16p",
+    "8:16p",
+    "9:16p",
+    "10:16p",
+    "11:16p",
+    "12:16x"
+  ],
+  "Stop Abbr: 02346 BURCHER  @ EXETER R s ns": [
+    "7:16p",
+    "8:16p",
+    "9:16p",
+    "10:16p",
+    "11:16p",
+    "12:16x"
+  ],
+  "Stop Abbr: 02347 BURCHER  @ BAYLY ST s ns": [
+    "7:18p",
+    "8:18p",
+    "9:18p",
+    "10:18p",
+    "11:18p",
+    "12:18x"
+  ],
+  "Stop Abbr: 02098 BURCHER @ AMBASSADOR s ns": [
+    "7:18p",
+    "8:18p",
+    "9:18p",
+    "10:18p",
+    "11:18p",
+    "12:18x"
+  ],
+  "Stop Abbr: 02099 BURCHER  @ HURLEY R s nsx": [
+    "7:18p",
+    "8:18p",
+    "9:18p",
+    "10:18p",
+    "11:18p",
+    "12:18x"
+  ],
+  "Stop Abbr: 02100 BURCHER  @ EMPEROR  s fs": [
+    "7:18p",
+    "8:18p",
+    "9:18p",
+    "10:18p",
+    "11:18p",
+    "12:18x"
+  ],
+  "Stop Abbr: 02101 BURCHER  @ CLEMENTS s ns": [
+    "7:19p",
+    "8:19p",
+    "9:19p",
+    "10:19p",
+    "11:19p",
+    "12:19x"
+  ],
+  "Stop Abbr: 02102 CLEMENTS @ TAYLOR R se nsx": [
+    "7:19p",
+    "8:19p",
+    "9:19p",
+    "10:19p",
+    "11:19p",
+    "12:19x"
+  ],
+  "Stop Abbr: 02103 CLEMENTS @ GAMON ST se ns": [
+    "7:19p",
+    "8:19p",
+    "9:19p",
+    "10:19p",
+    "11:19p",
+    "12:19x"
+  ],
+  "Stop Abbr: 02104 CLEMENTS @ PRESTON  se ns": [
+    "7:20p",
+    "8:20p",
+    "9:20p",
+    "10:20p",
+    "11:20p",
+    "12:20x"
+  ],
+  "Stop Abbr: 02105 CLEMENTS @ DREYER D sw ns": [
+    "7:20p",
+    "8:20p",
+    "9:20p",
+    "10:20p",
+    "11:20p",
+    "12:20x"
+  ],
+  "Stop Abbr: 02084 DREYER @ PICKERING BEACH e ns": [
+    "7:21p",
+    "8:21p",
+    "9:21p",
+    "10:21p",
+    "11:21p",
+    "12:21x"
+  ],
+  "Stop Abbr: 02092 PICKERING BEACH @ ROLLO n fs": [
+    "7:21p",
+    "8:21p",
+    "9:21p",
+    "10:21p",
+    "11:21p",
+    "12:21x"
+  ],
+  "Stop Abbr: 02093 PICKERING BEACH @ ROLLO DR n nsmb": [
+    "7:21p",
+    "8:21p",
+    "9:21p",
+    "10:21p",
+    "11:21p",
+    "12:21x"
+  ],
+  "Stop Abbr: 02094 PICKERING BEACH @ ROLLO n ns": [
+    "7:21p",
+    "8:21p",
+    "9:21p",
+    "10:21p",
+    "11:21p",
+    "12:21x"
+  ],
+  "Stop Abbr: 02095 PICKERING BEACH @ GREENHALF n fs": [
+    "7:21p",
+    "8:21p",
+    "9:21p",
+    "10:21p",
+    "11:21p",
+    "12:21x"
+  ],
+  "Stop Abbr: 02096 PICKERING BEACH @ GREENHALF n ns": [
+    "7:22p",
+    "8:22p",
+    "9:22p",
+    "10:22p",
+    "11:22p",
+    "12:22x"
+  ],
+  "Stop Abbr: 02097 PICKERING BEACH @ POWERS V n ns": [
+    "7:22p",
+    "8:22p",
+    "9:22p",
+    "10:22p",
+    "11:22p",
+    "12:22x"
+  ],
+  "Stop Abbr: 02718 BAYLY ST @ BOONE LN e ns": [
+    "7:22p",
+    "8:22p",
+    "9:22p",
+    "10:22p",
+    "11:22p",
+    "12:22x"
+  ],
+  "Stop Abbr: 02310 BAYLY @ SHOAL POINT e ns": [
+    "7:23p",
+    "8:23p",
+    "9:23p",
+    "10:23p",
+    "11:23p",
+    "12:23x"
+  ],
+  "Stop Abbr: 02033 SHOAL POINT @ WILKIE s ns": [
+    "7:23p",
+    "8:23p",
+    "9:23p",
+    "10:23p",
+    "11:23p",
+    "12:23x"
+  ],
+  "Stop Abbr: 02034 SHOAL POINT @ MARJORAM s ns": [
+    "7:23p",
+    "8:23p",
+    "9:23p",
+    "10:23p",
+    "11:23p",
+    "12:23x"
+  ],
+  "Stop Abbr: 02035 SHOAL POINT @ MARJORAM s fsmb": [
+    "7:23p",
+    "8:23p",
+    "9:23p",
+    "10:23p",
+    "11:23p",
+    "12:23x"
+  ],
+  "Stop Abbr: 02036 SHOAL POINT @ SALT s ns": [
+    "7:24p",
+    "8:24p",
+    "9:24p",
+    "10:24p",
+    "11:24p",
+    "12:24x"
+  ],
+  "Stop Abbr: 02037 SHOAL POINT @ CALLANDER s ns": [
+    "7:25p",
+    "8:25p",
+    "9:25p",
+    "10:25p",
+    "11:25p",
+    "12:25x"
+  ],
+  "Stop Abbr: 02038 SHOAL POINT @ SPIERS s fs": [
+    "7:25p",
+    "8:25p",
+    "9:25p",
+    "10:25p",
+    "11:25p",
+    "12:25x"
+  ],
+  "Stop Abbr: 02717 SHOAL POINT @ RANGE LINE s ns": [
+    "7:26p",
+    "8:26p",
+    "9:26p",
+    "10:26p",
+    "11:26p",
+    "12:26x"
+  ],
+  "Stop Abbr: 02088 RANGE LINE @ MAYOR w ns": [
+    "7:26p",
+    "8:26p",
+    "9:26p",
+    "10:26p",
+    "11:26p",
+    "12:26x"
+  ],
+  "Stop Abbr: 02089 RANGE LINE @ RUTHEL w ns": [
+    "7:26p",
+    "8:26p",
+    "9:26p",
+    "10:26p",
+    "11:26p",
+    "12:26x"
+  ],
+  "Stop Abbr: 02090 PICKERING BEACH @ RANGE LINE s fsx": [
+    "7:27p",
+    "8:27p",
+    "9:27p",
+    "10:27p",
+    "11:27p",
+    "12:27x"
+  ],
+  "Stop Abbr: 02086 LAKEVIEW @ POPLAR A e nsx": [
+    "7:27p",
+    "8:27p",
+    "9:27p",
+    "10:27p",
+    "11:27p",
+    "12:27x"
+  ],
+  "Stop Abbr: 02087 LAKEVIEW @ MAPLE AV e fsx": [
+    "7:28p",
+    "8:28p",
+    "9:28p",
+    "10:28p",
+    "11:28p",
+    "12:28x"
+  ],
+  "Stop Abbr: 02039 ASHBURY @ WISEMAN  e fsx": [
+    "7:30p",
+    "8:30p",
+    "9:30p",
+    "10:30p",
+    "11:30p",
+    "12:30x"
+  ],
+  "Stop Abbr: 02040 ASHBURY  @ MULLORD  e nsx": [
+    "7:30p",
+    "8:30p",
+    "9:30p",
+    "10:30p",
+    "11:30p",
+    "12:30x"
+  ],
+  "Stop Abbr: 02041 ASHBURY  @ AUDLEY R e ns": [
+    "7:31p",
+    "8:31p",
+    "9:31p",
+    "10:31p",
+    "11:31p",
+    "12:31x"
+  ],
+  "Stop Abbr: 02045 AUDLEY R @ KINGHAM  n ns": [
+    "7:31p",
+    "8:31p",
+    "9:31p",
+    "10:31p",
+    "11:31p",
+    "12:31x"
+  ],
+  "Stop Abbr: 02046 AUDLEY R @ HANDLEY  n ns": [
+    "7:31p",
+    "8:31p",
+    "9:31p",
+    "10:31p",
+    "11:31p",
+    "12:31x"
+  ],
+  "Stop Abbr: 02047 AUDLEY R @ DONAHOE  ne ns": [
+    "7:31p",
+    "8:31p",
+    "9:31p",
+    "10:31p",
+    "11:31p",
+    "12:31x"
+  ],
+  "Stop Abbr: 02048 AUDLEY R @ MOYNAHAN n fs": [
+    "7:32p",
+    "8:32p",
+    "9:32p",
+    "10:32p",
+    "11:32p",
+    "12:32x"
+  ],
+  "Stop Abbr: 02049 AUDLEY R @ MOYNAHAN n fsmb": [
+    "7:32p",
+    "8:32p",
+    "9:32p",
+    "10:32p",
+    "11:32p",
+    "12:32x"
+  ],
+  "Stop Abbr: 02050 AUDLEY R @ KEYWOOD  n fsx": [
+    "7:33p",
+    "8:33p",
+    "9:33p",
+    "10:33p",
+    "11:33p",
+    "12:33x"
+  ],
+  "Stop Abbr: 02051 AUDLEY R @ BAYLY ST n ns": [
+    "7:34p",
+    "8:34p",
+    "9:34p",
+    "10:34p",
+    "11:34p",
+    "12:34x"
+  ],
+  "Stop Abbr: 02311 BAYLY @ SHOAL POINT w nsx": [
+    "7:35p",
+    "8:35p",
+    "9:35p",
+    "10:35p",
+    "11:35p",
+    "12:35x"
+  ],
+  "Stop Abbr: 02312 BAYLY ST @ BOONE LN w fsx": [
+    "7:35p",
+    "8:35p",
+    "9:35p",
+    "10:35p",
+    "11:35p",
+    "12:35x"
+  ],
+  "Stop Abbr: 02313 BAYLY ST @ SALEM RD w fs": [
+    "7:36p",
+    "8:36p",
+    "9:36p",
+    "10:36p",
+    "11:36p",
+    "12:36x"
+  ],
+  "Stop Abbr: 02314 BAYLY ST @ PORTE RD w fs": [
+    "7:36p",
+    "8:36p",
+    "9:36p",
+    "10:36p",
+    "11:36p",
+    "12:36x"
+  ],
+  "Stop Abbr: 02315 BAYLY ST @ BURCHER  w ns": [
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 02316 BAYLY ST @ HARWOOD  w ns": [
+    "7:38p",
+    "8:38p",
+    "9:38p",
+    "10:38p",
+    "11:38p",
+    "12:38x"
+  ],
+  "Stop Abbr: 02073 HARWOOD  @ KINGS CR n ns": [
+    "7:39p",
+    "8:39p",
+    "9:39p",
+    "10:39p",
+    "11:39p",
+    "12:39x"
+  ],
+  "Stop Abbr: 02074 HARWOOD  @ KINGS CR n ns": [
+    "7:40p",
+    "8:40p",
+    "9:40p",
+    "10:40p",
+    "11:40p",
+    "12:40x"
+  ],
+  "Stop Abbr: 02075 HARWOOD  @ ACHILLES n ns": [
+    "7:41p",
+    "8:41p",
+    "9:41p",
+    "10:41p",
+    "11:41p",
+    "12:41x"
+  ],
+  "Stop Abbr: 02328 FAIRALL  @ DOWTY RD w fs": [
+    "7:43p",
+    "8:43p",
+    "9:43p",
+    "10:43p",
+    "11:43p",
+    "12:43x"
+  ],
+  "Stop Abbr: 02329 FAIRALL  @ MCMASTER w nsx": [
+    "7:44p",
+    "8:44p",
+    "9:44p",
+    "10:44p",
+    "11:44p",
+    "12:44x"
+  ],
+  "Stop Abbr: 02330 FAIRALL  @ WESTNEY  w ns": [
+    "7:45p",
+    "8:45p",
+    "9:45p",
+    "10:45p",
+    "11:45p",
+    "12:45x"
+  ]
+}

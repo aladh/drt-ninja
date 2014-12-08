@@ -1,0 +1,263 @@
+{
+  "Stop Abbr: 01909 PICKERING TOWN CENTRE": [
+    "10:30a",
+    "12:30p",
+    "2:30p",
+    "11:24a",
+    "1:24p",
+    "3:24p"
+  ],
+  "Stop Abbr: 01911 GLENANNA @ PICKERING PARKWAY n fsmb": [
+    "10:33a",
+    "12:33p",
+    "2:33p"
+  ],
+  "Stop Abbr: 01912 GLENANNA @ THE ESPLANDE n ns": [
+    "10:33a",
+    "12:33p",
+    "2:33p"
+  ],
+  "Stop Abbr: 01918 GLENANNA @ FIELDLIGHT nw nsmb": [
+    "10:33a",
+    "12:33p",
+    "2:33p"
+  ],
+  "Stop Abbr: 01919 GLENANNA @ FIELDLIGHT w fs": [
+    "10:33a",
+    "12:33p",
+    "2:33p"
+  ],
+  "Stop Abbr: 01732 LIVERPOOL @ GLENANNA n fs": [
+    "10:34a",
+    "12:34p",
+    "2:34p"
+  ],
+  "Stop Abbr: 01733 LIVERPOOL @ GLENANNA n fsmb": [
+    "10:34a",
+    "12:34p",
+    "2:34p"
+  ],
+  "Stop Abbr: 01734 LIVERPOOL @ ANTON SQUARE n ns": [
+    "10:34a",
+    "12:34p",
+    "2:34p"
+  ],
+  "Stop Abbr: 01735 LIVERPOOL RD @ FINCH AVE n ns": [
+    "10:35a",
+    "12:35p",
+    "2:35p"
+  ],
+  "Stop Abbr: 01869 FINCH @ MAPLE RIDGE w ns": [
+    "10:35a",
+    "12:35p",
+    "2:35p"
+  ],
+  "Stop Abbr: 01870 FINCH AV @ DIXIE RD w ns": [
+    "10:35a",
+    "12:35p",
+    "2:35p"
+  ],
+  "Stop Abbr: 01871 FINCH @ LYNN HEIGHTS w ns": [
+    "10:35a",
+    "12:35p",
+    "2:35p"
+  ],
+  "Stop Abbr: 01872 FINCH @ DUNCANNON w fs": [
+    "10:36a",
+    "12:36p",
+    "2:36p"
+  ],
+  "Stop Abbr: 01873 FINCH AV @ FAIRPORT w nsx": [
+    "10:36a",
+    "12:36p",
+    "2:36p"
+  ],
+  "Stop Abbr: 01874 FINCH AV @ DARWIN D w ns": [
+    "10:36a",
+    "12:36p",
+    "2:36p"
+  ],
+  "Stop Abbr: 01875 FINCH @ ERIN GATE w ns": [
+    "10:37a",
+    "12:37p",
+    "2:37p"
+  ],
+  "Stop Abbr: 01754 WHITES R @ FINCH AV s fsmb": [
+    "10:38a",
+    "12:38p",
+    "2:38p"
+  ],
+  "Stop Abbr: 01755 WHITES RD @ HIGHVIEW RD s ns": [
+    "10:39a",
+    "12:39p",
+    "2:39p"
+  ],
+  "Stop Abbr: 01757 WHITES R @ BAYFIELD s ns": [
+    "10:41a",
+    "12:41p",
+    "2:41p"
+  ],
+  "Stop Abbr: 01758 WHITES RD @ BAYFIELD ST s fsmb": [
+    "10:41a",
+    "12:41p",
+    "2:41p"
+  ],
+  "Stop Abbr: 01759 WHITES R @ SHEPPARD s fs": [
+    "10:42a",
+    "12:42p",
+    "2:42p"
+  ],
+  "Stop Abbr: 01742 KINGSTON @ WHITES R w fs": [
+    "10:43a",
+    "12:43p",
+    "2:43p"
+  ],
+  "Stop Abbr: 01616 KINGSTON @ ROSEBANK w ns": [
+    "10:44a",
+    "12:44p",
+    "2:44p"
+  ],
+  "Stop Abbr: 01617 KINGSTON @ ROUGEMOUNT w ns": [
+    "10:45a",
+    "12:45p",
+    "2:45p"
+  ],
+  "Stop Abbr: 01776 KINGSTON @ ROUGEMOUNT e ns": [
+    "10:48a",
+    "12:48p",
+    "2:48p"
+  ],
+  "Stop Abbr: 01777 KINGSTON @ ROSEBANK e ns": [
+    "10:50a",
+    "12:50p",
+    "2:50p"
+  ],
+  "Stop Abbr: 01778 KINGSTON @ STEEPLE HILL e nsx": [
+    "10:53a",
+    "12:53p",
+    "2:53p"
+  ],
+  "Stop Abbr: 01779 KINGSTON @ WHITES R e fs": [
+    "10:55a",
+    "12:55p",
+    "2:55p"
+  ],
+  "Stop Abbr: 01780 KINGSTON @ FAIRPORT e nsmx": [
+    "10:55a",
+    "12:55p",
+    "2:55p"
+  ],
+  "Stop Abbr: 01781 KINGSTON @ FAIRPORT e nsx": [
+    "10:55a",
+    "12:55p",
+    "2:55p"
+  ],
+  "Stop Abbr: 01782 KINGSTON @ DIXIE RD e ns": [
+    "10:56a",
+    "12:56p",
+    "2:56p"
+  ],
+  "Stop Abbr: 01783 KINGSTON @ WALNUT L e nsx": [
+    "10:56a",
+    "12:56p",
+    "2:56p"
+  ],
+  "Stop Abbr: 01784 KINGSTON @ GLENDALE e nsmx": [
+    "10:58a",
+    "12:58p",
+    "2:58p"
+  ],
+  "Stop Abbr: 01741 LIVERPOOL @ PICKERING PARKWAY s fs": [
+    "10:59a",
+    "12:59p",
+    "2:59p"
+  ],
+  "Stop Abbr: 01994 RADOM ST @ DOUGLAS  w fsx": [
+    "11:01a",
+    "1:01p",
+    "3:01p"
+  ],
+  "Stop Abbr: 01995 RADOM @ ST MARTINS nw nsmb": [
+    "11:02a",
+    "1:02p",
+    "3:02p"
+  ],
+  "Stop Abbr: 01996 RADOM @ ST MARTINS w ns": [
+    "11:02a",
+    "1:02p",
+    "3:02p"
+  ],
+  "Stop Abbr: 01999 ST MARTINS @ WAYFARER s fs": [
+    "11:03a",
+    "1:03p",
+    "3:03p"
+  ],
+  "Stop Abbr: 02001 RADOM ST @ DOUGLAS  e ns": [
+    "11:04a",
+    "1:04p",
+    "3:04p"
+  ],
+  "Stop Abbr: 01986 LIVERPOO @ PATMORE  s nsx": [
+    "11:04a",
+    "1:04p",
+    "3:04p"
+  ],
+  "Stop Abbr: 01842 LIVERPOOL @ HALLER s ns": [
+    "11:05a",
+    "1:05p",
+    "3:05p"
+  ],
+  "Stop Abbr: 01832 KROSNO @ LIVERPOOL se fsmb": [
+    "-",
+    "-",
+    "-",
+    "11:06a",
+    "1:06p",
+    "3:06p"
+  ],
+  "Stop Abbr: 01833 ANNLAND  @ FOXGLOVE s ns": [
+    "11:06a",
+    "1:06p",
+    "3:06p"
+  ],
+  "Stop Abbr: 01839 LIVERPOOL @ COMMERCE n fs": [
+    "11:09a",
+    "1:09p",
+    "3:09p"
+  ],
+  "Stop Abbr: 01840 LIVERPOOL @ ILONA PARK n nsx": [
+    "11:09a",
+    "1:09p",
+    "3:09p"
+  ],
+  "Stop Abbr: 01841 LIVERPOOL @ OLD ORCHARD n nsx": [
+    "11:10a",
+    "1:10p",
+    "3:10p"
+  ],
+  "Stop Abbr: 02002 LIVERPOOL @ HALLER n fsx": [
+    "11:10a",
+    "1:10p",
+    "3:10p"
+  ],
+  "Stop Abbr: 02003 LIVERPOOL @ PATMORE n fs": [
+    "11:11a",
+    "1:11p",
+    "3:11p"
+  ],
+  "Stop Abbr: 02298 LIVERPOOL @ BAYLY n ns": [
+    "11:12a",
+    "1:12p",
+    "3:12p"
+  ],
+  "Stop Abbr: 01729 LIVERPOOL @ PICKERING PARKWAY n ns": [
+    "11:15a",
+    "1:15p",
+    "3:15p"
+  ],
+  "Stop Abbr: 01913 GLENANNA @ THE ESPLANADE s nsx": [
+    "11:20a",
+    "1:20p",
+    "3:20p"
+  ]
+}

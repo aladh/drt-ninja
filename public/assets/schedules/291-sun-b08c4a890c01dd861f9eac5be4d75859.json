@@ -1,0 +1,127 @@
+{
+  "Stop Abbr: 02276 WESTNEY  @ HARWOOD  e ns": [
+    "11:30a",
+    "1:30p",
+    "3:30p"
+  ],
+  "Stop Abbr: 02071 FALBY CT @ HARWOOD  w nsmb": [
+    "11:37a",
+    "1:37p",
+    "3:37p"
+  ],
+  "Stop Abbr: 02340 PLAZA STATION @ HARWOOD n ns": [
+    "11:52a",
+    "1:52p",
+    "3:52p"
+  ],
+  "Stop Abbr: 02155 HARWOOD  @ OAK ST n ns": [
+    "11:53a",
+    "1:53p",
+    "3:53p"
+  ],
+  "Stop Abbr: 02156 HARWOOD  @ DORIC ST n ns": [
+    "11:54a",
+    "1:54p",
+    "3:54p"
+  ],
+  "Stop Abbr: 02157 HARWOOD  @ MANDRAKE n ns": [
+    "11:55a",
+    "1:55p",
+    "3:55p"
+  ],
+  "Stop Abbr: 02241 KINGSTON @ HARWOOD  e fs": [
+    "11:56a",
+    "1:56p",
+    "3:56p"
+  ],
+  "Stop Abbr: 02242 KINGSTON @ HARWOOD  e fsmb": [
+    "11:56a",
+    "1:56p",
+    "3:56p"
+  ],
+  "Stop Abbr: 02243 KINGSTON @ SALEM RD e nsmb": [
+    "11:57a",
+    "1:57p",
+    "3:57p"
+  ],
+  "Stop Abbr: 92072 KINGSTON @ SALEM e fsmb": [
+    "11:58a",
+    "1:58p",
+    "3:58p"
+  ],
+  "Stop Abbr: 02217 KINGSTON @ WICKS DR e nsmb": [
+    "11:59a",
+    "1:59p",
+    "3:59p"
+  ],
+  "Stop Abbr: 02575 PLAZA @ HARWOOD  w ns": [
+    "12:03p",
+    "2:03p",
+    "4:03p"
+  ],
+  "Stop Abbr: 01594 KINGSTON @ HARWOOD  w fs": [
+    "12:04p",
+    "2:04p",
+    "4:04p"
+  ],
+  "Stop Abbr: 01596 KINGSTON @ CHAPMAN  w ns": [
+    "12:07p",
+    "2:07p",
+    "4:07p"
+  ],
+  "Stop Abbr: 01597 KINGSTON @ WESTNEY  w nsmb": [
+    "12:07p",
+    "2:07p",
+    "4:07p"
+  ],
+  "Stop Abbr: 02283 WESTNEY  @ KINGSTON n fs": [
+    "12:07p",
+    "2:07p",
+    "4:07p"
+  ],
+  "Stop Abbr: 02284 WESTNEY @ MILLINGTON n ns": [
+    "12:08p",
+    "2:08p",
+    "4:08p"
+  ],
+  "Stop Abbr: 02285 WESTNEY @ RAVENSCROFT n nsx": [
+    "12:08p",
+    "2:08p",
+    "4:08p"
+  ],
+  "Stop Abbr: 02286 WESTNEY @ MAGILL n ns": [
+    "12:09p",
+    "2:09p",
+    "4:09p"
+  ],
+  "Stop Abbr: 02287 WESTNEY  @ IVERS CT n fs": [
+    "12:09p",
+    "2:09p",
+    "4:09p"
+  ],
+  "Stop Abbr: 02288 WESTNEY  @ SULLIVAN n ns": [
+    "12:10p",
+    "2:10p",
+    "4:10p"
+  ],
+  "Stop Abbr: 02289 WESTNEY  @ ROSSLAND n ns": [
+    "12:11p",
+    "2:11p",
+    "4:11p"
+  ],
+  "Stop Abbr: 02720 CHURCH S @ SHERWOOD s ns": [
+    "12:15p",
+    "2:15p",
+    "4:15p"
+  ],
+  "Stop Abbr: 02209 CHURCH S @ KINGSTON s ns": [
+    "12:17p",
+    "2:17p",
+    "4:17p"
+  ],
+  "Stop Abbr: 01909 PICKERING TOWN CENTRE": [
+    "12:25p",
+    "2:25p",
+    "4:25p"
+  ]
+}
