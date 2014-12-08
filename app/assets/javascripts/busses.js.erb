@@ -1,13 +1,13 @@
+// Declare variable for current schedule
+var currentSchedule;
 
-// After document has loaded
-$(document).ready(function() {
-	var currentSchedule;
+// Log item to console
+function debug(data) {
+	console.log(data);
+}
 
-	// When bus route is changed
-	$(".bus-route").on("change", function() {
-
-		// Save context as jQery object
-		var self = $(this);
+// Get requested schedule
+function getSchedule() {
 
 		// Weekday/weekend schedule
 		var day = $(".days input:checked").attr("value");
@@ -60,6 +60,16 @@ $(document).ready(function() {
 				$("#bus-stops").html(html);
 			}
 		});
+}
+
+// After document has loaded
+$(document).ready(function() {
+
+	// When bus route is changed
+	$(".bus-route").on("change", function() {
+
+		getSchedule();
+
 	});
 
 	// When bus stop is changed
