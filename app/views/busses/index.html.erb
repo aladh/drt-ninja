@@ -1,10 +1,12 @@
-<h1>List of Bus Routes</h1>
+<h1>DRT Bus Schedules</h1>
 
-<ul>
-	<li>
-		<%= link_to "110 Central Pickering", buss_path(110), class: "bus-route" %>
-	</li>
-</ul>
+<select class="bus-route">
+	<option>SELECT BUS ROUTE</option>
+	<% @bus_routes.each do |k,v| %>
+		<% name = "<option value=" + v + ">" + k + "</option>" %>
+		<%= raw name %>
+	<% end %>
+</select>
 
 <div id="bus-stops">
 </div>
