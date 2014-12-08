@@ -1,0 +1,472 @@
+{
+  "Stop Abbr: 02554 PICKERING GO": [
+    "7:00p",
+    "8:00p",
+    "9:00p",
+    "10:00p",
+    "11:00p",
+    "12:00x",
+    "7:48p",
+    "8:48p",
+    "9:48p",
+    "10:48p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01729 LIVERPOOL @ PICKERING PARKWAY n ns": [
+    "7:02p",
+    "8:02p",
+    "9:02p",
+    "10:02p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01730 LIVERPOOL @ KINGSTON n ns": [
+    "7:03p",
+    "8:03p",
+    "9:03p",
+    "10:03p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01731 LIVERPOOL RD @ GLENANNA RD n nsmb": [
+    "7:04p",
+    "8:04p",
+    "9:04p",
+    "10:04p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01920 GLENANNA @ GLENDALE w ns": [
+    "7:04p",
+    "8:04p",
+    "9:04p",
+    "10:04p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01921 GLENANNA @ BRONTE w nsx": [
+    "7:04p",
+    "8:04p",
+    "9:04p",
+    "10:04p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01922 GLENANNA @ LISTOWELL w fsx": [
+    "7:05p",
+    "8:05p",
+    "9:05p",
+    "10:05p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01923 GLENANNA @ DIXIE RD w ns": [
+    "7:05p",
+    "8:05p",
+    "9:05p",
+    "10:05p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01924 GLENANNA @ ECHO POINT w ns": [
+    "7:06p",
+    "8:06p",
+    "9:06p",
+    "10:06p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01925 GLENANNA @ HEATHSIDE w fsx": [
+    "7:06p",
+    "8:06p",
+    "9:06p",
+    "10:06p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01926 GLENANNA @ HUNTSMILL w ns": [
+    "7:07p",
+    "8:07p",
+    "9:07p",
+    "10:07p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01927 GLENANNA @ FAIRPORT w ns": [
+    "7:08p",
+    "8:08p",
+    "9:08p",
+    "10:08p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 90017 FAIRPORT @ GLENANNA s fsmx": [
+    "7:08p",
+    "8:08p",
+    "9:08p",
+    "10:08p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01982 FAIRPORT @ VOYAGER  s ns": [
+    "7:08p",
+    "8:08p",
+    "9:08p",
+    "10:08p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01983 FAIRPORT @ STROUDS  s ns": [
+    "7:09p",
+    "8:09p",
+    "9:09p",
+    "10:09p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 02727 STROUDS @ SPRUCE HILL w fs": [
+    "7:10p",
+    "8:10p",
+    "9:10p",
+    "10:10p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01584 STROUDS LANE @ CRICKET LANE w fs": [
+    "7:10p",
+    "8:10p",
+    "9:10p",
+    "10:10p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01585 STROUDS LANE @ WHITES w ns": [
+    "7:11p",
+    "8:11p",
+    "9:11p",
+    "10:11p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01569 HIGHVIEW @ SAUGEEN  w ns": [
+    "7:13p",
+    "8:13p",
+    "9:13p",
+    "10:13p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01570 HIGHVIEW @ WOODSIDE w nsx": [
+    "7:13p",
+    "8:13p",
+    "9:13p",
+    "10:13p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01571 HIGHVIEW @ MONTCLAIR w ns": [
+    "7:13p",
+    "8:13p",
+    "9:13p",
+    "10:13p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01572 HIGHVIEW @ ROSEBANK w ns": [
+    "7:14p",
+    "8:14p",
+    "9:14p",
+    "10:14p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01563 ROSEBANK @ AMBERLEA n fs": [
+    "7:15p",
+    "8:15p",
+    "9:15p",
+    "10:15p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01518 PINE GROVE AVE @ SANDHURST CR sw fs": [
+    "7:19p",
+    "8:19p",
+    "9:19p",
+    "10:19p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01519 PINE GROVE AVE @ NORDANE DR  w ns": [
+    "7:19p",
+    "8:19p",
+    "9:19p",
+    "10:19p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01520 PINE GROVE @ ROCKWOOD w nsx": [
+    "7:19p",
+    "8:19p",
+    "9:19p",
+    "10:19p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01521 PINE GROVE @ VALLEY RIDGE s ns": [
+    "7:20p",
+    "8:20p",
+    "9:20p",
+    "10:20p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01522 VALLEY RIDGE @ COPLEY ST s ns": [
+    "7:21p",
+    "8:21p",
+    "9:21p",
+    "10:21p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01523 VALLEY RIDGE @ THICKET CRES  s ns": [
+    "7:21p",
+    "8:21p",
+    "9:21p",
+    "10:21p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01524 VALLEY RIDGE @ WHITE PINE s fs": [
+    "7:22p",
+    "8:22p",
+    "9:22p",
+    "10:22p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 02725 HOGARTH ST  @ PINE GROVE AVE e ns": [
+    "7:22p",
+    "8:22p",
+    "9:22p",
+    "10:22p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01525 HOGARTH  @ ROCKWOOD e fsx": [
+    "7:23p",
+    "8:23p",
+    "9:23p",
+    "10:23p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01526 WOODVIEW @ TWYN RIVERS s ns": [
+    "7:24p",
+    "8:24p",
+    "9:24p",
+    "10:24p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01527 TWYN RIVERS @ HOOVER e ns": [
+    "7:24p",
+    "8:24p",
+    "9:24p",
+    "10:24p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01528 TWYN RIVERS @ ALTONA e ns": [
+    "7:24p",
+    "8:24p",
+    "9:24p",
+    "10:24p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01513 ALTONA R @ GRANBY C n ns": [
+    "7:25p",
+    "8:25p",
+    "9:25p",
+    "10:25p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01514 WATERFORD @ VALLEYVIEW w ns": [
+    "7:26p",
+    "8:26p",
+    "9:26p",
+    "10:26p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01515 WATERFORD GT @ SENATOR ST  w ns": [
+    "7:26p",
+    "8:26p",
+    "9:26p",
+    "10:26p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01516 OAKBURN @ WESTCREEK n ns": [
+    "7:27p",
+    "8:27p",
+    "9:27p",
+    "10:27p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01564 ROSEBANK @ DEERHAVEN s ns": [
+    "7:33p",
+    "8:33p",
+    "9:33p",
+    "10:33p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01581 STROUDS LANE @ SHADYBROOK e ns": [
+    "7:36p",
+    "8:36p",
+    "9:36p",
+    "10:36p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01582 STROUDS LANE @ SPRUCE HILL e ns": [
+    "7:37p",
+    "8:37p",
+    "9:37p",
+    "10:37p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01583 STROUDS LANE @ FAIRPORT e ns": [
+    "7:38p",
+    "8:38p",
+    "9:38p",
+    "10:38p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01984 FAIRPORT RD @ BONITA AVE n ns": [
+    "7:38p",
+    "8:38p",
+    "9:38p",
+    "10:38p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01985 FAIRPORT @ GLENANNA n ns": [
+    "7:40p",
+    "8:40p",
+    "9:40p",
+    "10:40p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01928 GLENANNA @ EAGLEVIEW e fsx": [
+    "7:40p",
+    "8:40p",
+    "9:40p",
+    "10:40p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01929 GLENANNA @ BROOKSHIRE e ns": [
+    "7:40p",
+    "8:40p",
+    "9:40p",
+    "10:40p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01930 GLENANNA @ HEATHSIDE se ns": [
+    "7:41p",
+    "8:41p",
+    "9:41p",
+    "10:41p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01931 GLENANNA @ RAWLINGS e fs": [
+    "7:42p",
+    "8:42p",
+    "9:42p",
+    "10:42p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01932 GLENANNA @ DIXIE RD e ns": [
+    "7:42p",
+    "8:42p",
+    "9:42p",
+    "10:42p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01933 GLENANNA @ LISTOWELL e ns": [
+    "7:42p",
+    "8:42p",
+    "9:42p",
+    "10:42p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01934 GLENANNA @ BOWLER D e nsx": [
+    "7:43p",
+    "8:43p",
+    "9:43p",
+    "10:43p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01935 GLENANNA RD @ GLENDALE DR e ns": [
+    "7:44p",
+    "8:44p",
+    "9:44p",
+    "10:44p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01739 LIVERPOOL @ KINGSTON s ns": [
+    "7:44p",
+    "8:44p",
+    "9:44p",
+    "10:44p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01740 LIVERPOOL @ KINGSTON s fs": [
+    "7:45p",
+    "8:45p",
+    "9:45p",
+    "10:45p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01741 LIVERPOOL @ PICKERING PARKWAY s fs": [
+    "7:45p",
+    "8:45p",
+    "9:45p",
+    "10:45p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01694 BAYLY @ LIVERPOOL e fs": [
+    "7:46p",
+    "8:46p",
+    "9:46p",
+    "10:46p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: ESend Evening Shuttle End Time": [
+    "-",
+    "-",
+    "-",
+    "-",
+    "11:45p",
+    "12:45x"
+  ]
+}

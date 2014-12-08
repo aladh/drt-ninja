@@ -1,0 +1,360 @@
+{
+  "Stop Abbr: 02569 AJAX GO": [
+    "7:05p",
+    "8:05p",
+    "9:05p",
+    "10:05p",
+    "11:05p",
+    "12:05x",
+    "7:47p",
+    "8:47p",
+    "9:47p",
+    "10:47p",
+    "11:47p",
+    "12:47x"
+  ],
+  "Stop Abbr: 92004 ROTHERGLEN @ FEARN n ns": [
+    "7:09p",
+    "8:09p",
+    "9:09p",
+    "10:09p",
+    "11:09p",
+    "12:09x"
+  ],
+  "Stop Abbr: 92035 ROTHERGLEN @ KINGSTON n ns": [
+    "7:09p",
+    "8:09p",
+    "9:09p",
+    "10:09p",
+    "11:09p",
+    "12:09x"
+  ],
+  "Stop Abbr: 02195 ROTHERGLEN @ LACHLAN n ns": [
+    "7:10p",
+    "8:10p",
+    "9:10p",
+    "10:10p",
+    "11:10p",
+    "12:10x"
+  ],
+  "Stop Abbr: 02196 GRIFFITHS @ SIMMS w ns": [
+    "7:11p",
+    "8:11p",
+    "9:11p",
+    "10:11p",
+    "11:11p",
+    "12:11x"
+  ],
+  "Stop Abbr: 02197 GRIFFITHS @ WILCE n ns": [
+    "7:12p",
+    "8:12p",
+    "9:12p",
+    "10:12p",
+    "11:12p",
+    "12:12x"
+  ],
+  "Stop Abbr: 02198 GRIFFITHS @ WITHAY n ns": [
+    "7:12p",
+    "8:12p",
+    "9:12p",
+    "10:12p",
+    "11:12p",
+    "12:12x"
+  ],
+  "Stop Abbr: 02199 GRIFFITHS @ TURRIFF  n fs": [
+    "7:13p",
+    "8:13p",
+    "9:13p",
+    "10:13p",
+    "11:13p",
+    "12:13x"
+  ],
+  "Stop Abbr: 02200 GRIFFITHS @ DELANEY n ns": [
+    "7:14p",
+    "8:14p",
+    "9:14p",
+    "10:14p",
+    "11:14p",
+    "12:14x"
+  ],
+  "Stop Abbr: 92024 DELANEY @ HARKINS e ns": [
+    "7:14p",
+    "8:14p",
+    "9:14p",
+    "10:14p",
+    "11:14p",
+    "12:14x"
+  ],
+  "Stop Abbr: 02201 HARKINS @ MACDERMOTT nw nsx": [
+    "7:14p",
+    "8:14p",
+    "9:14p",
+    "10:14p",
+    "11:14p",
+    "12:14x"
+  ],
+  "Stop Abbr: 02202 HARKINS @ CARD n nsx": [
+    "7:14p",
+    "8:14p",
+    "9:14p",
+    "10:14p",
+    "11:14p",
+    "12:14x"
+  ],
+  "Stop Abbr: 02203 HARKINS  @ ISLES n ns": [
+    "7:15p",
+    "8:15p",
+    "9:15p",
+    "10:15p",
+    "11:15p",
+    "12:15x"
+  ],
+  "Stop Abbr: 92016 ROSSLAND @ HARKINS e fs": [
+    "7:15p",
+    "8:15p",
+    "9:15p",
+    "10:15p",
+    "11:15p",
+    "12:15x"
+  ],
+  "Stop Abbr: 92017 ROSSLAND @ MARSH LANE e nsx": [
+    "7:15p",
+    "8:15p",
+    "9:15p",
+    "10:15p",
+    "11:15p",
+    "12:15x"
+  ],
+  "Stop Abbr: 02167 ROSSLAND @ STEVENSGATE e nsx": [
+    "7:16p",
+    "8:16p",
+    "9:16p",
+    "10:16p",
+    "11:16p",
+    "12:16x"
+  ],
+  "Stop Abbr: 02168 ROSSLAND @ PEARCE D e fs": [
+    "7:17p",
+    "8:17p",
+    "9:17p",
+    "10:17p",
+    "11:17p",
+    "12:17x"
+  ],
+  "Stop Abbr: 02169 ROSSLAND @ WESTNEY e fs": [
+    "7:18p",
+    "8:18p",
+    "9:18p",
+    "10:18p",
+    "11:18p",
+    "12:18x"
+  ],
+  "Stop Abbr: 02187 BENNETT  @ HEARNE C s ns": [
+    "7:19p",
+    "8:19p",
+    "9:19p",
+    "10:19p",
+    "11:19p",
+    "12:19x"
+  ],
+  "Stop Abbr: 02188 BENNETT  @ KEEBLE C s fsmx": [
+    "7:19p",
+    "8:19p",
+    "9:19p",
+    "10:19p",
+    "11:19p",
+    "12:19x"
+  ],
+  "Stop Abbr: 02189 BENNETT  @ SULLIVAN s ns": [
+    "7:20p",
+    "8:20p",
+    "9:20p",
+    "10:20p",
+    "11:20p",
+    "12:20x"
+  ],
+  "Stop Abbr: 02190 SULLIVAN @ NOAKE CR s ns": [
+    "7:20p",
+    "8:20p",
+    "9:20p",
+    "10:20p",
+    "11:20p",
+    "12:20x"
+  ],
+  "Stop Abbr: 02191 SULLIVAN @ MAGILL D s ns": [
+    "7:21p",
+    "8:21p",
+    "9:21p",
+    "10:21p",
+    "11:21p",
+    "12:21x"
+  ],
+  "Stop Abbr: 02193 COLES AV @ CORNWALL s ns": [
+    "7:22p",
+    "8:22p",
+    "9:22p",
+    "10:22p",
+    "11:22p",
+    "12:22x"
+  ],
+  "Stop Abbr: 02194 COLES AV @ CHAPMAN  s ns": [
+    "7:23p",
+    "8:23p",
+    "9:23p",
+    "10:23p",
+    "11:23p",
+    "12:23x"
+  ],
+  "Stop Abbr: 02128 CHAPMAN  @ CORNWALL s fsmb": [
+    "7:24p",
+    "8:24p",
+    "9:24p",
+    "10:24p",
+    "11:24p",
+    "12:24x"
+  ],
+  "Stop Abbr: 02129 CHAPMAN  @ KINGSTON s ns": [
+    "7:25p",
+    "8:25p",
+    "9:25p",
+    "10:25p",
+    "11:25p",
+    "12:25x"
+  ],
+  "Stop Abbr: 02239 KINGSTON @ RITCHIE  e fsmb": [
+    "7:25p",
+    "8:25p",
+    "9:25p",
+    "10:25p",
+    "11:25p",
+    "12:25x"
+  ],
+  "Stop Abbr: 02240 KINGSTON @ HARWOOD  e nsmb": [
+    "7:26p",
+    "8:26p",
+    "9:26p",
+    "10:26p",
+    "11:26p",
+    "12:26x"
+  ],
+  "Stop Abbr: 02152 HARWOOD  @ GARDINER s ns": [
+    "7:27p",
+    "8:27p",
+    "9:27p",
+    "10:27p",
+    "11:27p",
+    "12:27x"
+  ],
+  "Stop Abbr: 02153 HARWOOD  @ ONTARIO  s ns": [
+    "7:28p",
+    "8:28p",
+    "9:28p",
+    "10:28p",
+    "11:28p",
+    "12:28x"
+  ],
+  "Stop Abbr: 02154 HARWOOD  @ BROCK ST s fs": [
+    "7:28p",
+    "8:28p",
+    "9:28p",
+    "10:28p",
+    "11:28p",
+    "12:28x"
+  ],
+  "Stop Abbr: 02076 HARWOOD  @ KINGS CR s fsx": [
+    "7:30p",
+    "8:30p",
+    "9:30p",
+    "10:30p",
+    "11:30p",
+    "12:30x"
+  ],
+  "Stop Abbr: 02325 HUNT ST @ HARWOOD  w fs": [
+    "7:31p",
+    "8:31p",
+    "9:31p",
+    "10:31p",
+    "11:31p",
+    "12:31x"
+  ],
+  "Stop Abbr: 02326 HUNT ST @ MILLS RD w ns": [
+    "7:31p",
+    "8:31p",
+    "9:31p",
+    "10:31p",
+    "11:31p",
+    "12:31x"
+  ],
+  "Stop Abbr: 92045 MONARCH @ STONEWOOD s fsx": [
+    "7:33p",
+    "8:33p",
+    "9:33p",
+    "10:33p",
+    "11:33p",
+    "12:33x"
+  ],
+  "Stop Abbr: 02052 MONARCH  @ BAYLY ST s fs": [
+    "7:34p",
+    "8:34p",
+    "9:34p",
+    "10:34p",
+    "11:34p",
+    "12:34x"
+  ],
+  "Stop Abbr: 02053 MONARCH @ CENTENNIAL s nsx": [
+    "7:35p",
+    "8:35p",
+    "9:35p",
+    "10:35p",
+    "11:35p",
+    "12:35x"
+  ],
+  "Stop Abbr: 02054 MONARCH  @ CLEMENTS s nsmb": [
+    "7:37p",
+    "8:37p",
+    "9:37p",
+    "10:37p",
+    "11:37p",
+    "12:37x"
+  ],
+  "Stop Abbr: 02055 MONARCH  @ CLEMENTS s ns": [
+    "7:39p",
+    "8:39p",
+    "9:39p",
+    "10:39p",
+    "11:39p",
+    "12:39x"
+  ],
+  "Stop Abbr: 02278 WESTNEY  @ FULLER R n ns": [
+    "7:43p",
+    "8:43p",
+    "9:43p",
+    "10:43p",
+    "11:43p",
+    "12:43x"
+  ],
+  "Stop Abbr: 02279 WESTNEY  @ BAYLY ST n ns": [
+    "7:44p",
+    "8:44p",
+    "9:44p",
+    "10:44p",
+    "11:44p",
+    "12:44x"
+  ],
+  "Stop Abbr: 02280 WESTNEY  @ BAYLY ST n fs": [
+    "7:44p",
+    "8:44p",
+    "9:44p",
+    "10:44p",
+    "11:44p",
+    "12:44x"
+  ],
+  "Stop Abbr: 02281 WESTNEY  @ OBRIEN C n fsx": [
+    "7:45p",
+    "8:45p",
+    "9:45p",
+    "10:45p",
+    "11:45p",
+    "12:45x"
+  ]
+}
