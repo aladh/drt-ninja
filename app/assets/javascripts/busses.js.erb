@@ -6,7 +6,7 @@ function debug(data) {
 	console.log(data);
 }
 
-// Get requested schedule
+// Get schedule based on route and day selection in DOM and render template
 function getSchedule() {
 
 		// Weekday/weekend schedule
@@ -67,9 +67,18 @@ $(document).ready(function() {
 
 	// When bus route is changed
 	$(".bus-route").on("change", function() {
+		// Check for no option selected
+		if ($(".bus-route option:selected").attr("value") != 0) {
+			getSchedule();	
+		}
+	});
 
-		getSchedule();
-
+	// When day is changed
+	$(".days").on("change", function() {
+		// Check for no option selected
+		if ($(".bus-route option:selected").attr("value") != 0) {
+			getSchedule();	
+		}
 	});
 
 	// When bus stop is changed
@@ -94,4 +103,5 @@ $(document).ready(function() {
 		var html    = template(context);
 		$("#stop-times").html(html);
 	});
+	
 });
