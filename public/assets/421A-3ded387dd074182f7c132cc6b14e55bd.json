@@ -1,0 +1,403 @@
+{
+  "Stop Abbr: 00817 LEGEND CENTRE @ HARMONY  w ns": [
+    "-",
+    "6:55a",
+    "-",
+    "7:55a",
+    "8:25a",
+    "8:55a",
+    "9:25a",
+    "6:50a",
+    "7:50a",
+    "8:20a",
+    "8:50a",
+    "9:20a",
+    "9:50a",
+    "10:20a"
+  ],
+  "Stop Abbr: 00813 WALMART @ TAUNTON s nsmb": [
+    "-",
+    "7:00a",
+    "-",
+    "8:00a",
+    "8:30a",
+    "9:00a",
+    "9:30a",
+    "6:45a",
+    "7:45a",
+    "8:15a",
+    "8:45a",
+    "9:15a",
+    "9:45a",
+    "10:15a"
+  ],
+  "Stop Abbr: 00849 TAUNTON @ GRANDVIEW e ns": [
+    "-",
+    "7:02a",
+    "-",
+    "8:02a",
+    "8:32a",
+    "9:02a",
+    "9:32a"
+  ],
+  "Stop Abbr: 00850 TAUNTON  @ BENSON S e ns": [
+    "-",
+    "7:03a",
+    "-",
+    "8:03a",
+    "8:33a",
+    "9:03a",
+    "9:33a"
+  ],
+  "Stop Abbr: 00851 TAUNTON  @ TOWNLINE e ns": [
+    "-",
+    "7:04a",
+    "-",
+    "8:04a",
+    "8:34a",
+    "9:04a",
+    "9:34a"
+  ],
+  "Stop Abbr: 00766 TOWNLINE @ TAUNTON  s fs": [
+    "-",
+    "7:05a",
+    "-",
+    "8:05a",
+    "8:35a",
+    "9:05a",
+    "9:35a"
+  ],
+  "Stop Abbr: 90082 TOWNLINE @ WHITELAW s ns": [
+    "-",
+    "7:05a",
+    "-",
+    "8:05a",
+    "8:35a",
+    "9:05a",
+    "9:35a"
+  ],
+  "Stop Abbr: 00767 TOWNLINE @ BEATRICE s ns": [
+    "-",
+    "7:05a",
+    "-",
+    "8:05a",
+    "8:35a",
+    "9:05a",
+    "9:35a"
+  ],
+  "Stop Abbr: 00768 TOWNLINE @ MADDOCK  s fs": [
+    "-",
+    "7:06a",
+    "-",
+    "8:06a",
+    "8:36a",
+    "9:06a",
+    "9:36a"
+  ],
+  "Stop Abbr: 00769 TOWNLINE @ PEBBLESTONE s fsx": [
+    "-",
+    "7:07a",
+    "-",
+    "8:07a",
+    "8:37a",
+    "9:07a",
+    "9:37a"
+  ],
+  "Stop Abbr: 00770 TOWNLINE @ KETTERING s fs": [
+    "-",
+    "7:07a",
+    "-",
+    "8:07a",
+    "8:37a",
+    "9:07a",
+    "9:37a"
+  ],
+  "Stop Abbr: 00771 TOWNLINE @ KILMAURS s ns": [
+    "-",
+    "7:07a",
+    "-",
+    "8:07a",
+    "8:37a",
+    "9:07a",
+    "9:37a"
+  ],
+  "Stop Abbr: 00772 TOWNLINE @ ADELAIDE s ns": [
+    "-",
+    "7:08a",
+    "-",
+    "8:08a",
+    "8:38a",
+    "9:08a",
+    "9:38a"
+  ],
+  "Stop Abbr: 00773 TOWNLINE @ LAWSON R s fsx": [
+    "-",
+    "7:08a",
+    "-",
+    "8:08a",
+    "8:38a",
+    "9:08a",
+    "9:38a"
+  ],
+  "Stop Abbr: 00774 TOWNLINE @ SHANKEL  s ns": [
+    "-",
+    "7:08a",
+    "-",
+    "8:08a",
+    "8:38a",
+    "9:08a",
+    "9:38a"
+  ],
+  "Stop Abbr: 01224 HWY 2 @ DARLINGTON BLVD e ns": [
+    "-",
+    "7:10a",
+    "-",
+    "8:10a",
+    "8:40a",
+    "9:10a",
+    "9:40a"
+  ],
+  "Stop Abbr: 01225 HWY 2 @ OLD KINGSTON e fs": [
+    "-",
+    "7:11a",
+    "-",
+    "8:11a",
+    "8:41a",
+    "9:11a",
+    "9:41a"
+  ],
+  "Stop Abbr: 01236 CLARET @ SANDRINGHAM e ns": [
+    "6:24a",
+    "7:24a",
+    "7:54a",
+    "8:24a",
+    "8:54a",
+    "9:24a",
+    "9:54a"
+  ],
+  "Stop Abbr: 01237 SANDRINGHAM @ GLENABBEY e ns": [
+    "6:24a",
+    "7:24a",
+    "7:54a",
+    "8:24a",
+    "8:54a",
+    "9:24a",
+    "9:54a"
+  ],
+  "Stop Abbr: 01238 SANDRINGHAM @ YORKVILLE e fs": [
+    "6:24a",
+    "7:24a",
+    "7:54a",
+    "8:24a",
+    "8:54a",
+    "9:24a",
+    "9:54a"
+  ],
+  "Stop Abbr: 01239 SANDRINGHAM @ HILLHURST ne ns": [
+    "6:25a",
+    "7:25a",
+    "7:55a",
+    "8:25a",
+    "8:55a",
+    "9:25a",
+    "9:55a"
+  ],
+  "Stop Abbr: 01218 HWY 2 @ COURTICE w fs": [
+    "6:30a",
+    "7:30a",
+    "8:00a",
+    "8:30a",
+    "9:00a",
+    "9:30a",
+    "10:00a"
+  ],
+  "Stop Abbr: 01219 HWY 2 @ TRULLS RD w ns": [
+    "6:31a",
+    "7:31a",
+    "8:01a",
+    "8:31a",
+    "9:01a",
+    "9:31a",
+    "10:01a"
+  ],
+  "Stop Abbr: 01220 HWY 2 @ SANDRINGHAM w fsx": [
+    "6:32a",
+    "7:32a",
+    "8:02a",
+    "8:32a",
+    "9:02a",
+    "9:32a",
+    "10:02a"
+  ],
+  "Stop Abbr: 01221 HWY 2 @ PRESTONVALE w nsx": [
+    "6:33a",
+    "7:33a",
+    "8:03a",
+    "8:33a",
+    "9:03a",
+    "9:33a",
+    "10:03a"
+  ],
+  "Stop Abbr: 01222 HWY 2 @ CENTERFIELD w fs": [
+    "6:33a",
+    "7:33a",
+    "8:03a",
+    "8:33a",
+    "9:03a",
+    "9:33a",
+    "10:03a"
+  ],
+  "Stop Abbr: 01223 HWY 2 @ VARCOE RD w ns": [
+    "6:34a",
+    "7:34a",
+    "8:04a",
+    "8:34a",
+    "9:04a",
+    "9:34a",
+    "10:04a"
+  ],
+  "Stop Abbr: 00786 TOWNLINE @ NASH RD n ns": [
+    "6:35a",
+    "7:35a",
+    "8:05a",
+    "8:35a",
+    "9:05a",
+    "9:35a",
+    "10:05a"
+  ],
+  "Stop Abbr: 00787 TOWNLINE @ SHANKEL  n fsx": [
+    "6:35a",
+    "7:35a",
+    "8:05a",
+    "8:35a",
+    "9:05a",
+    "9:35a",
+    "10:05a"
+  ],
+  "Stop Abbr: 00788 TOWNLINE @ WABBOKISH n fs": [
+    "6:35a",
+    "7:35a",
+    "8:05a",
+    "8:35a",
+    "9:05a",
+    "9:35a",
+    "10:05a"
+  ],
+  "Stop Abbr: 00789 TOWNLINE @ ADELAIDE n fsx": [
+    "6:36a",
+    "7:36a",
+    "8:06a",
+    "8:36a",
+    "9:06a",
+    "9:36a",
+    "10:06a"
+  ],
+  "Stop Abbr: 00790 TOWNLINE @ KILMAURS n fsx": [
+    "6:36a",
+    "7:36a",
+    "8:06a",
+    "8:36a",
+    "9:06a",
+    "9:36a",
+    "10:06a"
+  ],
+  "Stop Abbr: 00791 TOWNLINE @ KETTERING n nsx": [
+    "6:37a",
+    "7:37a",
+    "8:07a",
+    "8:37a",
+    "9:07a",
+    "9:37a",
+    "10:07a"
+  ],
+  "Stop Abbr: 00792 TOWNLINE @ MADDOCK  n nsx": [
+    "6:38a",
+    "7:38a",
+    "8:08a",
+    "8:38a",
+    "9:08a",
+    "9:38a",
+    "10:08a"
+  ],
+  "Stop Abbr: 00793 TOWNLINE @ BEATRICE n fsx": [
+    "6:38a",
+    "7:38a",
+    "8:08a",
+    "8:38a",
+    "9:08a",
+    "9:38a",
+    "10:08a"
+  ],
+  "Stop Abbr: 00794 TOWNLINE @ TAUNTON  n ns": [
+    "6:40a",
+    "7:40a",
+    "8:10a",
+    "8:40a",
+    "9:10a",
+    "9:40a",
+    "10:10a"
+  ],
+  "Stop Abbr: 00818 TAUNTON  @ TOWNLINE w fs": [
+    "6:40a",
+    "7:40a",
+    "8:10a",
+    "8:40a",
+    "9:10a",
+    "9:40a",
+    "10:10a"
+  ],
+  "Stop Abbr: 00819 TAUNTON @ ARBORWOOD w fsmb": [
+    "6:40a",
+    "7:40a",
+    "8:10a",
+    "8:40a",
+    "9:10a",
+    "9:40a",
+    "10:10a"
+  ],
+  "Stop Abbr: 00820 TAUNTON  @ BENSON S w nsx": [
+    "6:41a",
+    "7:41a",
+    "8:11a",
+    "8:41a",
+    "9:11a",
+    "9:41a",
+    "10:11a"
+  ],
+  "Stop Abbr: 00821 TAUNTON @ GRANDVIEW w ns": [
+    "6:41a",
+    "7:41a",
+    "8:11a",
+    "8:41a",
+    "9:11a",
+    "9:41a",
+    "10:11a"
+  ],
+  "Stop Abbr: 00822 TAUNTON  @ HARMONY  w nsmb": [
+    "6:42a",
+    "7:42a",
+    "8:12a",
+    "8:42a",
+    "9:12a",
+    "9:42a",
+    "10:12a"
+  ],
+  "Stop Abbr: 00810 HARMONY  @ TAUNTON  n fs": [
+    "6:43a",
+    "7:43a",
+    "8:13a",
+    "8:43a",
+    "9:13a",
+    "9:43a",
+    "10:13a"
+  ],
+  "Stop Abbr: 00816 HARMONY  @ TAUNTON  n fsmb": [
+    "6:44a",
+    "7:44a",
+    "8:14a",
+    "8:44a",
+    "9:14a",
+    "9:44a",
+    "10:14a"
+  ]
+}
