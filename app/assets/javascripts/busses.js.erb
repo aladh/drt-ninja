@@ -1,5 +1,6 @@
 // Declare variable for current schedule
 var currentSchedule;
+var stopValue = null;
 
 // Log item to console
 function debug(data) {
@@ -54,19 +55,35 @@ function getSchedule() {
 					}
 				}
 
-				// Compile and render template
+				// Compile and render bus stops template
 				template = Handlebars.compile(source);
 				var html    = template(context);
 				$("#bus-stops").html(html);
+
+				// If stop was saved
+				if (stopValue != null) {
+					
+					// Select the bus stop previously selected
+					$(".bus-stop").val(stopValue).change();
+					
+					// Trigger event to render stop times
+					$("#bus-stops .bus-stop").change();
+
+					// Reset stopValue
+					stopValue = null;
+				}
 			}
 		});
 }
 
 // After document has loaded
 $(document).ready(function() {
+	// Declare variables
+	
 
 	// When bus route is changed
 	$(".bus-route").on("change", function() {
+		
 		// Hide stop times if showing
 		$("#stop-times").html("");
 
@@ -78,7 +95,14 @@ $(document).ready(function() {
 
 	// When day is changed
 	$(".days").on("change", function() {
-		// Check for no option selected
+
+		// If bus stop already selected
+		if ($(".bus-stop option:selected").attr("value") != 0) {
+			// Save stop
+			stopValue = $(".bus-stop option:selected").attr("value");
+		}
+
+		// Check for no bus route selected
 		if ($(".bus-route option:selected").attr("value") != 0) {
 			getSchedule();	
 		}
@@ -106,5 +130,4 @@ $(document).ready(function() {
 		var html    = template(context);
 		$("#stop-times").html(html);
 	});
-
 });
