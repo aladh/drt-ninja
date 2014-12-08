@@ -1,0 +1,384 @@
+{
+  "Stop Abbr: 02556 PICKERING GO": [
+    "7:00p",
+    "8:00p",
+    "9:00p",
+    "10:00p",
+    "11:00p",
+    "12:00x",
+    "7:44p",
+    "8:44p",
+    "9:44p",
+    "10:44p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01695 BAYLY ST @ KROSNO B e ns": [
+    "7:00p",
+    "8:00p",
+    "9:00p",
+    "10:00p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01760 BAYLY @ SANDY BEACH e ns": [
+    "7:01p",
+    "8:01p",
+    "9:01p",
+    "10:01p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01761 BAYLY ST @ ALLIANCE RD e fs": [
+    "7:02p",
+    "8:02p",
+    "9:02p",
+    "10:02p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01762 BAYLY ST @ SALK RD e fsx": [
+    "7:02p",
+    "8:02p",
+    "9:02p",
+    "10:02p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01721 BROCK RD @ BAYLY ST n fs": [
+    "7:03p",
+    "8:03p",
+    "9:03p",
+    "10:03p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01722 BROCK RD @ PLUMMER  n nsx": [
+    "7:03p",
+    "8:03p",
+    "9:03p",
+    "10:03p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01964 PICKERING PARKWAY @ BROCK e fsmb": [
+    "7:05p",
+    "8:05p",
+    "9:05p",
+    "10:05p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01965 PICKERING PARKWAY @ BEECHLAWN e nsmx": [
+    "7:06p",
+    "8:06p",
+    "9:06p",
+    "10:06p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01966 PICKERING PARKWAY @ BEECHLAWN e fsx": [
+    "7:06p",
+    "8:06p",
+    "9:06p",
+    "10:06p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01967 MARSHCOURT @ ASHFORD n fsx": [
+    "7:07p",
+    "8:07p",
+    "9:07p",
+    "10:07p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01968 MARSHCOURT DR @ BEECHLAWN DR n fsx": [
+    "7:07p",
+    "8:07p",
+    "9:07p",
+    "10:07p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01969 MARSHCOURT @ BAINBRIDGE n nsx": [
+    "7:08p",
+    "8:08p",
+    "9:08p",
+    "10:08p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01970 BAINBRIDGE @ FAIRFIELD w fsx": [
+    "7:09p",
+    "8:09p",
+    "9:09p",
+    "10:09p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01971 BAINBRIDGE @ BURNSIDE w fs": [
+    "7:09p",
+    "8:09p",
+    "9:09p",
+    "10:09p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01972 BAINBRIDGE @ KINGSTON n nsmb": [
+    "7:10p",
+    "8:10p",
+    "9:10p",
+    "10:10p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01604 KINGSTON @ BROCK RD w ns": [
+    "7:12p",
+    "8:12p",
+    "9:12p",
+    "10:12p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01724 BROCK RD @ KINGSTON n fs": [
+    "7:12p",
+    "8:12p",
+    "9:12p",
+    "10:12p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01725 BROCK RD @ FINCH AV n ns": [
+    "7:12p",
+    "8:12p",
+    "9:12p",
+    "10:12p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01846 BROCK RD @ FINCH AV n fsmb": [
+    "7:13p",
+    "8:13p",
+    "9:13p",
+    "10:13p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01847 BROCK @ MAJOR OAKS n nsx": [
+    "7:13p",
+    "8:13p",
+    "9:13p",
+    "10:13p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01848 BROCK RD @ MAJOR OAKS RD n nsmx": [
+    "7:14p",
+    "8:14p",
+    "9:14p",
+    "10:14p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01849 DELLBROOK @ MELMAN w ns": [
+    "7:15p",
+    "8:15p",
+    "9:15p",
+    "10:15p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01850 DELLBROOK @ DENBY w nsx": [
+    "7:15p",
+    "8:15p",
+    "9:15p",
+    "10:15p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01851 DELLBROOK @ MELMAN n ns": [
+    "7:15p",
+    "8:15p",
+    "9:15p",
+    "10:15p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01852 DELLBROOK @ BLUE RIDGE w ns": [
+    "7:16p",
+    "8:16p",
+    "9:16p",
+    "10:16p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01853 DELLBROOK @ BLUE RIDGE w ns": [
+    "7:16p",
+    "8:16p",
+    "9:16p",
+    "10:16p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01854 DELLBROOK @ MAJOR OAKS w ns": [
+    "7:16p",
+    "8:16p",
+    "9:16p",
+    "10:16p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01855 MAJOR OAKS @ PEPPERWOOD s fsx": [
+    "7:17p",
+    "8:17p",
+    "9:17p",
+    "10:17p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01856 MAJOR OAKS @ GREENMOUNT s fs": [
+    "7:17p",
+    "8:17p",
+    "9:17p",
+    "10:17p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01857 MAJOR OAKS @ HOLLYHEDGE s fsx": [
+    "7:18p",
+    "8:18p",
+    "9:18p",
+    "10:18p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01858 MAJOR OAKS @ WILDWOOD e fs": [
+    "7:18p",
+    "8:18p",
+    "9:18p",
+    "10:18p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01859 MAJOR OAKS @ DUBERRY  e ns": [
+    "7:19p",
+    "8:19p",
+    "9:19p",
+    "10:19p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01860 MAJOR OAKS @ BEATON W e ns": [
+    "7:19p",
+    "8:19p",
+    "9:19p",
+    "10:19p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01862 VALLEY FARM @ FINCH AV s fs": [
+    "7:34p",
+    "8:34p",
+    "9:34p",
+    "10:34p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01863 VALLEY FARM @ FIELDLIGHT s nsmb": [
+    "7:34p",
+    "8:34p",
+    "9:34p",
+    "10:34p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01896 FIELDLIGHT @ LODGE w fs": [
+    "7:35p",
+    "8:35p",
+    "9:35p",
+    "10:35p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01897 FIELDLIGHT @ POPPY w fs": [
+    "7:35p",
+    "8:35p",
+    "9:35p",
+    "10:35p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01898 FIELDLIGHT @ ROSEFIELD w ns": [
+    "7:36p",
+    "8:36p",
+    "9:36p",
+    "10:36p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01899 FIELDLIGHT @ FAYLEE s ns": [
+    "7:36p",
+    "8:36p",
+    "9:36p",
+    "10:36p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01900 FIELDLIGHT @ BRANDS s fsx": [
+    "7:37p",
+    "8:37p",
+    "9:37p",
+    "10:37p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01901 FIELDLIGHT @ GLENANNA s ns": [
+    "7:38p",
+    "8:38p",
+    "9:38p",
+    "10:38p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01936 GLENANNA @ KINGSTON s ns": [
+    "7:38p",
+    "8:38p",
+    "9:38p",
+    "10:38p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01916 GLENANNA @ THE ESPLANADE s nsx": [
+    "7:38p",
+    "8:38p",
+    "9:38p",
+    "10:38p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01951 PICKERING PKWAY @ LIVERPOOL nw nsmb": [
+    "7:40p",
+    "8:40p",
+    "9:40p",
+    "10:40p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: 01741 LIVERPOOL @ PICKERING PARKWAY s fs": [
+    "7:41p",
+    "8:41p",
+    "9:41p",
+    "10:41p",
+    "-",
+    "-"
+  ],
+  "Stop Abbr: ESend Evening Shuttle End Time": [
+    "-",
+    "-",
+    "-",
+    "-",
+    "11:45p",
+    "12:45x"
+  ]
+}

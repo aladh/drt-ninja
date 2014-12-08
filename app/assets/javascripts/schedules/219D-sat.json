@@ -1,0 +1,280 @@
+{
+  "Stop Abbr: 02569 AJAX GO": [
+    "7:05p",
+    "8:05p",
+    "9:05p",
+    "10:05p",
+    "11:05p",
+    "12:05x",
+    "7:45p",
+    "8:45p",
+    "9:45p",
+    "10:45p",
+    "11:45p",
+    "12:45x"
+  ],
+  "Stop Abbr: 02282 WESTNEY  @ RITCHIE  n ns": [
+    "7:09p",
+    "8:09p",
+    "9:09p",
+    "10:09p",
+    "11:09p",
+    "12:09x"
+  ],
+  "Stop Abbr: 02283 WESTNEY  @ KINGSTON n fs": [
+    "7:10p",
+    "8:10p",
+    "9:10p",
+    "10:10p",
+    "11:10p",
+    "12:10x"
+  ],
+  "Stop Abbr: 02284 WESTNEY @ MILLINGTON n ns": [
+    "7:11p",
+    "8:11p",
+    "9:11p",
+    "10:11p",
+    "11:11p",
+    "12:11x"
+  ],
+  "Stop Abbr: 02285 WESTNEY @ RAVENSCROFT n nsx": [
+    "7:12p",
+    "8:12p",
+    "9:12p",
+    "10:12p",
+    "11:12p",
+    "12:12x"
+  ],
+  "Stop Abbr: 02180 RAVENSCROFT @ RADFORD w ns": [
+    "7:12p",
+    "8:12p",
+    "9:12p",
+    "10:12p",
+    "11:12p",
+    "12:12x"
+  ],
+  "Stop Abbr: 02181 RAVENSCROFT @ VENTRIS nw nsx": [
+    "7:13p",
+    "8:13p",
+    "9:13p",
+    "10:13p",
+    "11:13p",
+    "12:13x"
+  ],
+  "Stop Abbr: 02182 RAVENSCROFT @ BRENNAN  n ns": [
+    "7:14p",
+    "8:14p",
+    "9:14p",
+    "10:14p",
+    "11:14p",
+    "12:14x"
+  ],
+  "Stop Abbr: 02183 RAVENSCROFT @ MATTHEWS n ns": [
+    "7:14p",
+    "8:14p",
+    "9:14p",
+    "10:14p",
+    "11:14p",
+    "12:14x"
+  ],
+  "Stop Abbr: 02184 RAVENSCROFT @ DELANEY n ns": [
+    "7:15p",
+    "8:15p",
+    "9:15p",
+    "10:15p",
+    "11:15p",
+    "12:15x"
+  ],
+  "Stop Abbr: 02185 RAVENSCROFT @ HYDE n ns": [
+    "7:16p",
+    "8:16p",
+    "9:16p",
+    "10:16p",
+    "11:16p",
+    "12:16x"
+  ],
+  "Stop Abbr: 02186 RAVENSCROFT @ ROSSLAND n ns": [
+    "7:17p",
+    "8:17p",
+    "9:17p",
+    "10:17p",
+    "11:17p",
+    "12:17x"
+  ],
+  "Stop Abbr: 02393 WILLIAMSON @ SEGGAR e ns": [
+    "7:22p",
+    "8:22p",
+    "9:22p",
+    "10:22p",
+    "11:22p",
+    "12:22x"
+  ],
+  "Stop Abbr: 02294 SEGGAR A @ GOODHART s nsx": [
+    "7:22p",
+    "8:22p",
+    "9:22p",
+    "10:22p",
+    "11:22p",
+    "12:22x"
+  ],
+  "Stop Abbr: 02295 SEGGAR A @ SABBE AV s ns": [
+    "7:24p",
+    "8:24p",
+    "9:24p",
+    "10:24p",
+    "11:24p",
+    "12:24x"
+  ],
+  "Stop Abbr: 02296 SEGGAR @ HOPKINSON s ns": [
+    "7:25p",
+    "8:25p",
+    "9:25p",
+    "10:25p",
+    "11:25p",
+    "12:25x"
+  ],
+  "Stop Abbr: 02297 SEGGAR A @ ROSSLAND s ns": [
+    "7:25p",
+    "8:25p",
+    "9:25p",
+    "10:25p",
+    "11:25p",
+    "12:25x"
+  ],
+  "Stop Abbr: 02165 ROSSLAND @ WESTNEY  w ns": [
+    "7:27p",
+    "8:27p",
+    "9:27p",
+    "10:27p",
+    "11:27p",
+    "12:27x"
+  ],
+  "Stop Abbr: 93015 ROSSLAND @ CARTER-BENNETT w fs": [
+    "7:28p",
+    "8:28p",
+    "9:28p",
+    "10:28p",
+    "11:28p",
+    "12:28x"
+  ],
+  "Stop Abbr: 93016 ROSSLAND @ RAVENSCROFT w fs": [
+    "7:29p",
+    "8:29p",
+    "9:29p",
+    "10:29p",
+    "11:29p",
+    "12:29x"
+  ],
+  "Stop Abbr: 02166 ROSSLAND @ CHURCH S w nsmb": [
+    "7:31p",
+    "8:31p",
+    "9:31p",
+    "10:31p",
+    "11:31p",
+    "12:31x"
+  ],
+  "Stop Abbr: 02204 CHURCH @ STRICKLAND s ns": [
+    "7:32p",
+    "8:32p",
+    "9:32p",
+    "10:32p",
+    "11:32p",
+    "12:32x"
+  ],
+  "Stop Abbr: 02205 CHURCH S @ WINDLE D s nsmb": [
+    "7:33p",
+    "8:33p",
+    "9:33p",
+    "10:33p",
+    "11:33p",
+    "12:33x"
+  ],
+  "Stop Abbr: 02206 CHURCH S @ DELANEY  s ns": [
+    "7:34p",
+    "8:34p",
+    "9:34p",
+    "10:34p",
+    "11:34p",
+    "12:34x"
+  ],
+  "Stop Abbr: 02207 CHURCH S @ DELANEY  s fsmb": [
+    "7:34p",
+    "8:34p",
+    "9:34p",
+    "10:34p",
+    "11:34p",
+    "12:34x"
+  ],
+  "Stop Abbr: 02208 CHURCH S @ MEEKINGS s fsx": [
+    "7:35p",
+    "8:35p",
+    "9:35p",
+    "10:35p",
+    "11:35p",
+    "12:35x"
+  ],
+  "Stop Abbr: 02209 CHURCH S @ KINGSTON s ns": [
+    "7:37p",
+    "8:37p",
+    "9:37p",
+    "10:37p",
+    "11:37p",
+    "12:37x"
+  ],
+  "Stop Abbr: 02210 CHURCH S @ RANDALL  s ns": [
+    "7:38p",
+    "8:38p",
+    "9:38p",
+    "10:38p",
+    "11:38p",
+    "12:38x"
+  ],
+  "Stop Abbr: 02211 LINCOLN  @ GEORGINA e ns": [
+    "7:39p",
+    "8:39p",
+    "9:39p",
+    "10:39p",
+    "11:39p",
+    "12:39x"
+  ],
+  "Stop Abbr: 02212 LINCOLN @ BURNINGHAM e ns": [
+    "7:39p",
+    "8:39p",
+    "9:39p",
+    "10:39p",
+    "11:39p",
+    "12:39x"
+  ],
+  "Stop Abbr: 02213 LINCOLN @ ROTHERGLEN e ns": [
+    "7:40p",
+    "8:40p",
+    "9:40p",
+    "10:40p",
+    "11:40p",
+    "12:40x"
+  ],
+  "Stop Abbr: 02214 ROTHERGLEN @ BRAMWELL s nsx": [
+    "7:40p",
+    "8:40p",
+    "9:40p",
+    "10:40p",
+    "11:40p",
+    "12:40x"
+  ],
+  "Stop Abbr: 02267 BRAMWELL @ WESTNEY  e ns": [
+    "7:41p",
+    "8:41p",
+    "9:41p",
+    "10:41p",
+    "11:41p",
+    "12:41x"
+  ],
+  "Stop Abbr: 02268 WESTNEY  @ FAIRALL  s nsx": [
+    "7:44p",
+    "8:44p",
+    "9:44p",
+    "10:44p",
+    "11:44p",
+    "12:44x"
+  ]
+}

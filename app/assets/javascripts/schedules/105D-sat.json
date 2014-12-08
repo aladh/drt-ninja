@@ -1,0 +1,366 @@
+{
+  "Stop Abbr: 02556 PICKERING GO": [
+    "7:00p",
+    "8:00p",
+    "9:00p",
+    "10:00p",
+    "7:40p",
+    "8:40p",
+    "9:40p",
+    "10:40p"
+  ],
+  "Stop Abbr: 01772 BAYLY @ ST MARTINS w nsx": [
+    "7:01p",
+    "8:01p",
+    "9:01p",
+    "10:01p"
+  ],
+  "Stop Abbr: 01773 BAYLY ST @ BEGLEY S w fsx": [
+    "7:02p",
+    "8:02p",
+    "9:02p",
+    "10:02p"
+  ],
+  "Stop Abbr: 01774 BAYLY @ WEST SHORE w nsmx": [
+    "7:03p",
+    "8:03p",
+    "9:03p",
+    "10:03p"
+  ],
+  "Stop Abbr: 01775 BAYLY @ WEST SHORE w nsx": [
+    "7:04p",
+    "8:04p",
+    "9:04p",
+    "10:04p"
+  ],
+  "Stop Abbr: 01676 VISTULA @ BATORY AVENUE e ns": [
+    "7:04p",
+    "8:04p",
+    "9:04p",
+    "10:04p"
+  ],
+  "Stop Abbr: 01677 BATORY AVENUE @ TIMMINS  s fsx": [
+    "7:04p",
+    "8:04p",
+    "9:04p",
+    "10:04p"
+  ],
+  "Stop Abbr: 01678 BATORY AVENUE @ LYNX AVENUE s fs": [
+    "7:05p",
+    "8:05p",
+    "9:05p",
+    "10:05p"
+  ],
+  "Stop Abbr: 01679 BATORY AVENUE @ BREEZY DRIVE s ns": [
+    "7:05p",
+    "8:05p",
+    "9:05p",
+    "10:05p"
+  ],
+  "Stop Abbr: 01680 BREEZY DRIVE @ YEREMI e fs": [
+    "7:05p",
+    "8:05p",
+    "9:05p",
+    "10:05p"
+  ],
+  "Stop Abbr: 01681 BREEZY DRIVE @ OKLAHOMA s nsmb": [
+    "7:06p",
+    "8:06p",
+    "9:06p",
+    "10:06p"
+  ],
+  "Stop Abbr: 01682 BREEZY DRIVE @ MINK s ns": [
+    "7:06p",
+    "8:06p",
+    "9:06p",
+    "10:06p"
+  ],
+  "Stop Abbr: 01683 SUNRISE  @ CHIPMUNK w ns": [
+    "7:07p",
+    "8:07p",
+    "9:07p",
+    "10:07p"
+  ],
+  "Stop Abbr: 01684 SUNRISE @ WEST SHORE w ns": [
+    "7:07p",
+    "8:07p",
+    "9:07p",
+    "10:07p"
+  ],
+  "Stop Abbr: 01672 WEST SHORE @ OKLAHOMA n ns": [
+    "7:08p",
+    "8:08p",
+    "9:08p",
+    "10:08p"
+  ],
+  "Stop Abbr: 01673 WEST SHORE BLVD @ BREEZY DR n ns": [
+    "7:08p",
+    "8:08p",
+    "9:08p",
+    "10:08p"
+  ],
+  "Stop Abbr: 01674 WEST SHORE @ SAMFORD n nsx": [
+    "7:09p",
+    "8:09p",
+    "9:09p",
+    "10:09p"
+  ],
+  "Stop Abbr: 01675 WEST SHORE BLVD @ CECYLIA CT  n ns": [
+    "7:09p",
+    "8:09p",
+    "9:09p",
+    "10:09p"
+  ],
+  "Stop Abbr: 01646 HILLCREST @ MARINET w ns": [
+    "7:10p",
+    "8:10p",
+    "9:10p",
+    "10:10p"
+  ],
+  "Stop Abbr: 01647 HILLCREST @ PATIO w fsx": [
+    "7:10p",
+    "8:10p",
+    "9:10p",
+    "10:10p"
+  ],
+  "Stop Abbr: 01648 HILLCREST @ EYER DRIVE s fs": [
+    "7:11p",
+    "8:11p",
+    "9:11p",
+    "10:11p"
+  ],
+  "Stop Abbr: 01649 HILLCREST @ SANOK DRIVE s fsx": [
+    "7:11p",
+    "8:11p",
+    "9:11p",
+    "10:11p"
+  ],
+  "Stop Abbr: 01650 HILLCREST @ OKLAHOMA DRIVE s ns": [
+    "7:12p",
+    "8:12p",
+    "9:12p",
+    "10:12p"
+  ],
+  "Stop Abbr: 01651 EYER DRIVE @ ABINGDON s ns": [
+    "7:13p",
+    "8:13p",
+    "9:13p",
+    "10:13p"
+  ],
+  "Stop Abbr: 01652 EYER DRIVE @ STONEBRIDGE s fsx": [
+    "7:13p",
+    "8:13p",
+    "9:13p",
+    "10:13p"
+  ],
+  "Stop Abbr: 01653 EYER DRIVE @ DOWNLAND s ns": [
+    "7:14p",
+    "8:14p",
+    "9:14p",
+    "10:14p"
+  ],
+  "Stop Abbr: 01658 DOWNLAND @ WHITES R w ns": [
+    "7:15p",
+    "8:15p",
+    "9:15p",
+    "10:15p"
+  ],
+  "Stop Abbr: 01659 WHITES R @ ATWOOD C n nsx": [
+    "7:15p",
+    "8:15p",
+    "9:15p",
+    "10:15p"
+  ],
+  "Stop Abbr: 01660 WHITES R @ OKLAHOMA n ns": [
+    "7:17p",
+    "8:17p",
+    "9:17p",
+    "10:17p"
+  ],
+  "Stop Abbr: 01628 GRANITE  @ IRONSTON w ns": [
+    "7:17p",
+    "8:17p",
+    "9:17p",
+    "10:17p"
+  ],
+  "Stop Abbr: 01629 GRANITE @ SANDSTONE w nsx": [
+    "7:18p",
+    "8:18p",
+    "9:18p",
+    "10:18p"
+  ],
+  "Stop Abbr: 01630 GRANITE  @ ROSEBANK sw nsmb": [
+    "7:18p",
+    "8:18p",
+    "9:18p",
+    "10:18p"
+  ],
+  "Stop Abbr: 01631 ROSEBANK @ TOYNEVALE s fs": [
+    "7:19p",
+    "8:19p",
+    "9:19p",
+    "10:19p"
+  ],
+  "Stop Abbr: 01632 ROSEBANK @ DAHLIA C s fs": [
+    "7:20p",
+    "8:20p",
+    "9:20p",
+    "10:20p"
+  ],
+  "Stop Abbr: 01633 ROSEBANK @ COWAN CIRCLE s nsmx": [
+    "7:21p",
+    "8:21p",
+    "9:21p",
+    "10:21p"
+  ],
+  "Stop Abbr: 01634 ROSEBANK @ ROUGEMOUNT s ns": [
+    "7:22p",
+    "8:22p",
+    "9:22p",
+    "10:22p"
+  ],
+  "Stop Abbr: 01635 ROUGEMOUNT @ DYSON w nsx": [
+    "7:22p",
+    "8:22p",
+    "9:22p",
+    "10:22p"
+  ],
+  "Stop Abbr: 01636 ROUGEMOUNT @ OAKWOOD w ns": [
+    "7:22p",
+    "8:22p",
+    "9:22p",
+    "10:22p"
+  ],
+  "Stop Abbr: 01637 ROUGEMOUNT @ PINE RIDGE n nsx": [
+    "7:23p",
+    "8:23p",
+    "9:23p",
+    "10:23p"
+  ],
+  "Stop Abbr: 01638 ROUGEMOUNT @ PINE RIDGE n fsx": [
+    "7:24p",
+    "8:24p",
+    "9:24p",
+    "10:24p"
+  ],
+  "Stop Abbr: 01639 ROUGEMOUNT @ TOYNEVALE n ns": [
+    "7:25p",
+    "8:25p",
+    "9:25p",
+    "10:25p"
+  ],
+  "Stop Abbr: 01642 ROUGEMOUNT @ KINGSTON n ns": [
+    "7:25p",
+    "8:25p",
+    "9:25p",
+    "10:25p"
+  ],
+  "Stop Abbr: 01508 ALTONA R @ KINGSTON n fs": [
+    "7:27p",
+    "8:27p",
+    "9:27p",
+    "10:27p"
+  ],
+  "Stop Abbr: 01509 ALTONA @ BROOKRIDGE n ns": [
+    "7:27p",
+    "8:27p",
+    "9:27p",
+    "10:27p"
+  ],
+  "Stop Abbr: 01510 ALTONA @ FIDDLERS n ns": [
+    "7:27p",
+    "8:27p",
+    "9:27p",
+    "10:27p"
+  ],
+  "Stop Abbr: 01511 ALTONA @ ROUGEMOUT n ns": [
+    "7:27p",
+    "8:27p",
+    "9:27p",
+    "10:27p"
+  ],
+  "Stop Abbr: 01512 ALTONA @ SHEPPARD n ns": [
+    "7:27p",
+    "8:27p",
+    "9:27p",
+    "10:27p"
+  ],
+  "Stop Abbr: 01551 SHEPPARD @ ALTONA R e fsmb": [
+    "7:27p",
+    "8:27p",
+    "9:27p",
+    "10:27p"
+  ],
+  "Stop Abbr: 01552 SHEPPARD @ OLD FOREST e ns": [
+    "7:28p",
+    "8:28p",
+    "9:28p",
+    "10:28p"
+  ],
+  "Stop Abbr: 01879 SHEPPARD @ BARRY DR e ns": [
+    "7:28p",
+    "8:28p",
+    "9:28p",
+    "10:28p"
+  ],
+  "Stop Abbr: 01881 SHEPPARD AVE @ EDMUND DR e fs": [
+    "7:28p",
+    "8:28p",
+    "9:28p",
+    "10:28p"
+  ],
+  "Stop Abbr: 01882 SHEPPARD AVE @ WHITES RD e ns": [
+    "7:29p",
+    "8:29p",
+    "9:29p",
+    "10:29p"
+  ],
+  "Stop Abbr: 01643 BAYLY ST @ WHITES RD e fs": [
+    "7:31p",
+    "8:31p",
+    "9:31p",
+    "10:31p"
+  ],
+  "Stop Abbr: 01644 BAYLY @ WEST SHORE e ns": [
+    "7:34p",
+    "8:34p",
+    "9:34p",
+    "10:34p"
+  ],
+  "Stop Abbr: 01689 BAYLY @ WEST SHORE e fs": [
+    "7:34p",
+    "8:34p",
+    "9:34p",
+    "10:34p"
+  ],
+  "Stop Abbr: 01690 BAYLY @ WEST SHORE e fsmb": [
+    "7:34p",
+    "8:34p",
+    "9:34p",
+    "10:34p"
+  ],
+  "Stop Abbr: 01691 BAYLY ST @ WEST SHORE BLVD e fsmb": [
+    "7:35p",
+    "8:35p",
+    "9:35p",
+    "10:35p"
+  ],
+  "Stop Abbr: 01692 BAYLY ST @ BEGLEY ST e ns": [
+    "7:36p",
+    "8:36p",
+    "9:36p",
+    "10:36p"
+  ],
+  "Stop Abbr: 01693 BAYLY ST @ ST MARTINS DR e ns": [
+    "7:36p",
+    "8:36p",
+    "9:36p",
+    "10:36p"
+  ],
+  "Stop Abbr: 01694 BAYLY @ LIVERPOOL e fs": [
+    "7:38p",
+    "8:38p",
+    "9:38p",
+    "10:38p"
+  ]
+}

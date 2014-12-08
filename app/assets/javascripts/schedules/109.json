@@ -1,0 +1,163 @@
+{
+  "Stop Abbr: 02732 LAWRENCE @ ROUGE HILL e nsx": [
+    "-",
+    "6:40a",
+    "7:35a",
+    "6:36a",
+    "7:19a",
+    "8:14a"
+  ],
+  "Stop Abbr: 01509 ALTONA @ BROOKRIDGE n ns": [
+    "-",
+    "6:50a",
+    "7:45a"
+  ],
+  "Stop Abbr: 01510 ALTONA @ FIDDLERS n ns": [
+    "-",
+    "6:50a",
+    "7:45a"
+  ],
+  "Stop Abbr: 01511 ALTONA @ ROUGEMOUT n ns": [
+    "-",
+    "6:51a",
+    "7:46a"
+  ],
+  "Stop Abbr: 01512 ALTONA @ SHEPPARD n ns": [
+    "-",
+    "6:51a",
+    "7:46a"
+  ],
+  "Stop Abbr: 01513 ALTONA R @ GRANBY C n ns": [
+    "-",
+    "6:52a",
+    "7:47a"
+  ],
+  "Stop Abbr: 01545 STROUDS LANE @ TILSON e nsx": [
+    "6:12a",
+    "6:53a",
+    "7:48a"
+  ],
+  "Stop Abbr: 01546 STROUDS LANE @ TREETOP WAY e ns": [
+    "6:13a",
+    "6:53a",
+    "7:48a"
+  ],
+  "Stop Abbr: 01547 STROUDS LANE @ AUTUMN ne fs": [
+    "6:13a",
+    "6:54a",
+    "7:49a"
+  ],
+  "Stop Abbr: 01548 STROUDS LANE @ ROSEBANK e ns": [
+    "6:14a",
+    "6:54a",
+    "7:49a"
+  ],
+  "Stop Abbr: 01549 ROSEBANK @ FOXWOOD TRAIL s ns": [
+    "6:15a",
+    "6:56a",
+    "7:51a",
+    "6:20a",
+    "7:01a",
+    "7:56a"
+  ],
+  "Stop Abbr: 01554 FOXWOOD TRAIL @ LAURIER e ns": [
+    "6:15a",
+    "6:56a",
+    "7:51a"
+  ],
+  "Stop Abbr: 01555 FOXWOOD TRAIL @ GARDENVIEW e ns": [
+    "6:15a",
+    "6:56a",
+    "7:51a"
+  ],
+  "Stop Abbr: 01556 FOXWOOD TRAIL @ WEYBURN  ne ns": [
+    "6:15a",
+    "6:56a",
+    "7:51a"
+  ],
+  "Stop Abbr: 01557 FOXWOOD TRAIL @ BAYFIELD n ns": [
+    "6:16a",
+    "6:57a",
+    "7:52a"
+  ],
+  "Stop Abbr: 01558 FOXWOOD TRAIL @ SULTANA n ns": [
+    "6:16a",
+    "6:57a",
+    "7:52a"
+  ],
+  "Stop Abbr: 01559 AMBERLEA RD @ CHIRON CRES n nsx": [
+    "6:16a",
+    "6:57a",
+    "7:52a"
+  ],
+  "Stop Abbr: 01560 AMBERLEA @ ARCADIA  n ns": [
+    "6:17a",
+    "6:58a",
+    "7:53a"
+  ],
+  "Stop Abbr: 90018 AMBERLEA @ HIGHVIEW n fs": [
+    "6:17a",
+    "6:58a",
+    "7:53a"
+  ],
+  "Stop Abbr: 01561 AMBERLEA @ NAPANEE  w ns": [
+    "6:18a",
+    "6:59a",
+    "7:54a"
+  ],
+  "Stop Abbr: 01562 AMBERLEA @ OTONABEE w ns": [
+    "6:18a",
+    "6:59a",
+    "7:54a"
+  ],
+  "Stop Abbr: 01563 ROSEBANK @ AMBERLEA n fs": [
+    "6:18a",
+    "6:59a",
+    "7:54a"
+  ],
+  "Stop Abbr: 01564 ROSEBANK @ DEERHAVEN s ns": [
+    "6:19a",
+    "7:00a",
+    "7:55a"
+  ],
+  "Stop Abbr: 01565 ROSEBANK @ SPRINGVIEW s nsx": [
+    "6:19a",
+    "7:00a",
+    "7:55a"
+  ],
+  "Stop Abbr: 01566 ROSEBANK @ WOODSMERE s fs": [
+    "6:19a",
+    "7:00a",
+    "7:55a"
+  ],
+  "Stop Abbr: 01567 ROSEBANK @ STROUDS LANE s ns": [
+    "6:20a",
+    "7:01a",
+    "7:56a"
+  ],
+  "Stop Abbr: 01550 SHEPPARD @ OLD FOREST w nsx": [
+    "6:22a",
+    "7:03a",
+    "7:58a"
+  ],
+  "Stop Abbr: 01541 ALTONA @ LITTLEFORD s ns": [
+    "6:25a",
+    "7:08a",
+    "8:03a"
+  ],
+  "Stop Abbr: 01542 ALTONA @ FIDDLERS s fsx": [
+    "6:25a",
+    "7:08a",
+    "8:03a"
+  ],
+  "Stop Abbr: 01543 ALTONA @ VALLEY GATE s ns": [
+    "6:26a",
+    "7:09a",
+    "8:04a"
+  ],
+  "Stop Abbr: 01544 ALTONA @ KINGSTON s ns": [
+    "6:27a",
+    "7:10a",
+    "8:05a"
+  ]
+}

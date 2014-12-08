@@ -8,8 +8,15 @@ $(document).ready(function() {
 
 		// Save context as jQery object
 		var self = $(this);
+
+		// Weekday/weekend schedule
+		var day = $(".days input:checked").attr("value");
+		if (day != "") {
+			day = "-" + day;
+		}
+
 		// Save href of clicked link
-		var href = "/busses/" + $(".bus-route option:selected").attr("value");
+		var href = "/busses/" + $(".bus-route option:selected").attr("value") + day;
 
 		// Ajax request for schedule JSON of clicked route
 		$.ajax({
