@@ -1,13 +1,17 @@
-
 // After document has loaded
 $(document).ready(function() {
+	
+	// Declare variables
 	var currentSchedule;
+	var stopValue = null;
 
-	// When bus route is changed
-	$(".bus-route").on("change", function() {
+	// Log item to console
+	function debug(data) {
+		console.log(data);
+	}
 
-		// Save context as jQery object
-		var self = $(this);
+	// Get schedule based on route and day selection in DOM and render template
+	function getSchedule() {
 
 		// Weekday/weekend schedule
 		var day = $(".days input:checked").attr("value");
@@ -54,12 +58,52 @@ $(document).ready(function() {
 					}
 				}
 
-				// Compile and render template
+				// Compile and render bus stops template
 				template = Handlebars.compile(source);
 				var html    = template(context);
 				$("#bus-stops").html(html);
+
+				// If stop was saved
+				if (stopValue != null) {
+					
+					// Select the bus stop previously selected
+					$(".bus-stop").val(stopValue).change();
+					
+					// Trigger event to render stop times
+					$("#bus-stops .bus-stop").change();
+
+					// Reset stopValue
+					stopValue = null;
+				}
 			}
 		});
+	}
+
+	// When bus route is changed
+	$(".bus-route").on("change", function() {
+		
+		// Hide stop times if showing
+		$("#stop-times").html("");
+
+		// Check for no option selected
+		if ($(".bus-route option:selected").attr("value") != 0) {
+			getSchedule();	
+		}
+	});
+
+	// When day is changed
+	$(".days").on("change", function() {
+
+		// If bus stop already selected
+		if ($(".bus-stop option:selected").attr("value") != 0) {
+			// Save stop
+			stopValue = $(".bus-stop option:selected").attr("value");
+		}
+
+		// Check for no bus route selected
+		if ($(".bus-route option:selected").attr("value") != 0) {
+			getSchedule();	
+		}
 	});
 
 	// When bus stop is changed
