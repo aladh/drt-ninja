@@ -49,6 +49,7 @@ GEM
     foundation-rails (5.4.5.0)
       railties (>= 3.1.0)
       sass (>= 3.2.0)
+    geocoder (1.2.6)
     hike (1.2.3)
     i18n (0.6.11)
     jbuilder (2.2.5)
@@ -136,6 +137,7 @@ DEPENDENCIES
   better_errors
   binding_of_caller
   foundation-rails
+  geocoder
   jbuilder (~> 2.0)
   jquery-rails
   pg
