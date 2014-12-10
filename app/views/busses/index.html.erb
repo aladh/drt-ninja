@@ -16,11 +16,11 @@
 	<input type="radio" name="day" value="sun">Sunday
 </form>
 
-<div id="bus-stops">
-</div>
+<%= content_tag "div", "", id: 'map-canvas', data: {latitude: @test_coords[0], longitude: @test_coords[1], coords: @bus_stops} %>
 
-<div id="stop-times">
-</div>
+<div id="bus-stops"></div>
+
+<div id="stop-times"></div>
 
 <script id="bus-stops-template" type="text/x-handlebars-template">
 	<h2>Select Stop</h2>
