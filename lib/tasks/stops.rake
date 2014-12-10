@@ -25,7 +25,7 @@ namespace :stops do
 
 		locations = []
 
-		# Get coordinates for each name
+		# Get coordinates for each name and format for google api
 		i = 0
 		while i < long_names.length do
 			geo = Geocoder.search(long_names[i])[0].geometry["location"]
