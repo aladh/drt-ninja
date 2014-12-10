@@ -11,14 +11,33 @@ namespace :stops do
 		}
 		#p names
 		
-		locations = {}
+		# locations = {}
+
+		# # Get coordinates for each name
+		# i = 0
+		# while i < 3 do
+		# 	locations[names[i]] = Geocoder.search(long_names[i])[0].geometry["location"]
+		# 	p locations[names[i]]
+		# 	i = i + 1
+		# end
+	
+		# p locations
+
+		locations = []
 
 		# Get coordinates for each name
 		i = 0
-		while i < 6 do
-			locations[names[i]] = Geocoder.search(long_names[i])[0].geometry["location"]
-			p locations[names[i]]
+		while i < long_names.length do
+			geo = Geocoder.search(long_names[i])[0].geometry["location"]
+			geo["latitude"] = geo["lat"]
+			geo["longitude"] = geo["lng"]
+			geo.delete("lat")
+			geo.delete("lng")
+			locations.push(geo)
 			i = i + 1
+			if i % 5 == 0
+				sleep(2)
+			end
 		end
 	
 		p locations
