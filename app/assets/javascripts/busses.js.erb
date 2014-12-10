@@ -86,6 +86,9 @@ $(document).ready(function() {
 		if ($(".bus-route option:selected").attr("value") != 0) {
 			getSchedule();	
 		}
+
+		// Render google map
+		routeMap.init();
 	});
 
 	// When day is changed
