@@ -1,3 +1,42 @@
+// Make object namespace
+window.routeMap = {};
+
+// Initialize map
+routeMap.init = function() {
+  
+  // Get variables from data attributes on DOM element
+  var latitude = $('#map-canvas').data('latitude');
+  var longitude = $('#map-canvas').data('longitude');
+  var coords = $('#map-canvas').data('coords');
+
+  // Set map options
+  var options = {
+    zoom: 13,
+    center: new google.maps.LatLng(latitude, longitude),
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  }
+
+  // Render map
+  this.canvas = new google.maps.Map($('#map-canvas')[0], options);
+
+  // Plot points on map
+  if (coords) {
+    var _this = this;
+    coords.forEach(function(coord) {
+      _this.addMarker(coord.latitude, coord.longitude, "http://maps.google.com/mapfiles/ms/icons/yellow-dot.png");
+    });
+  }
+};
+
+// Make marker for coordinates
+routeMap.addMarker = function(latitude, longitude, image) {
+  var marker = new google.maps.Marker({
+    position: new google.maps.LatLng(latitude, longitude),
+    map: this.canvas,
+    icon: image
+  });
+}
+
 // After document has loaded
 $(document).ready(function() {
 	
