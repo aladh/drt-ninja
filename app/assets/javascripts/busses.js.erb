@@ -141,7 +141,7 @@ $(document).ready(function() {
 		var stopOrder = $(".bus-stop option:selected").attr("value") - 1;
 		
 		// Get the timings for the stop
-		var stopTimes = currentSchedule[stopName];
+		var stopTimes = currentSchedule.stops[stopOrder].times;
 
 		// Build template
 		var template;
