@@ -2,12 +2,12 @@
 window.routeMap = {};
 
 // Initialize map
-routeMap.init = function() {
+routeMap.init = function(lat, lon, cor) {
   
   // Get variables from data attributes on DOM element
-  var latitude = $('#map-canvas').data('latitude');
-  var longitude = $('#map-canvas').data('longitude');
-  var coords = $('#map-canvas').data('coords');
+  var latitude = lat;
+  var longitude = lon;
+  var coords = cor;
 
   // Set map options
   var options = {
@@ -47,6 +47,18 @@ $(document).ready(function() {
 	// Log item to console
 	function debug(data) {
 		console.log(data);
+	}
+
+	// Make object of bus stop coordinates for bus route
+	function makeCoords(bus) {
+		locations = [];
+		bus.stops.forEach(function(stop) {
+			locations.push({
+				latitude: stop.lat,
+				longitude: stop.lon 
+			});
+		});
+		return locations;
 	}
 
 	// Get schedule based on route and day selection in DOM and render template
@@ -92,7 +104,7 @@ $(document).ready(function() {
 				var html    = template(context);
 				$("#bus-stops").html(html);
 
-				// If stop was saved
+				// If stop was previously saved
 				if (stopValue != null) {
 					
 					// Select the bus stop previously selected
@@ -101,6 +113,9 @@ $(document).ready(function() {
 					// Reset stopValue
 					stopValue = null;
 				}
+				
+				// Render google map
+				routeMap.init(43.840035, -79.123702, makeCoords(currentSchedule));
 			}
 		});
 	}
@@ -115,9 +130,6 @@ $(document).ready(function() {
 		if ($(".bus-route option:selected").attr("value") != 0) {
 			getSchedule();	
 		}
-
-		// Render google map
-		routeMap.init();
 	});
 
 	// When day is changed
