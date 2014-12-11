@@ -150,9 +150,7 @@ $(document).ready(function() {
 		var source = $("#stop-times-template").html();
 
 		// Create object to send to template
-		var context = {
-			stopTime: stopTimes
-		}
+		var context = { stopTime: stopTimes }
 		template = Handlebars.compile(source);
 		var html    = template(context);
 		$("#stop-times").html(html);
