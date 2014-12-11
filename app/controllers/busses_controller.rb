@@ -37,9 +37,7 @@ class BussesController < ApplicationController
 	end
 
 	def show
-		f = File.open("app/assets/javascripts/schedules/#{params[:id]}.json", "r")
-		@schedule = f.read
-		f.close
+		@schedule = Bus.where(route: params[:id]).find_by(day: params[:day])
 		render :json => @schedule 
 	end
 
