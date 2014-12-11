@@ -1,39 +1,17 @@
 class BussesController < ApplicationController
 
 	def index
-		f = File.open("app/assets/javascripts/schedules/route_names.json", "r")
-		@bus_routes = JSON.parse(f.read)
+		f = File.open("app/assets/javascripts/route_names.json", "r")
+		@route_names = JSON.parse(f.read)
 		f.close
-		@test_coords = [43.8401310, -79.1237670]
-
-		# Get locations
-		f2 = File.open("app/assets/javascripts/schedules/110.json", "r")
-		names = JSON.parse(f2.read)
-		f2.close
-
-		# Remove everything but name, add city and province
-		long_names = names.keys.map { |name| 
-			name[17..-1].gsub(/[a-z]/,"").strip + ", Pickering, Ontario"
-		}
-
-		locations = []
-
-		# Get coordinates for each name
-		i = 0
-		while i < 4 do
-			geo = Geocoder.search(long_names[i])[0].geometry["location"]
-			geo["latitude"] = geo["lat"]
-			geo["longitude"] = geo["lng"]
-			geo.delete("lat")
-			geo.delete("lng")
-			locations.push(geo)
-			i = i + 1
-			if i % 5 == 0
-				sleep(2)
-			end
+		@test_coords = []
+		@test_coords[0] = 43.840035
+		@test_coords[1] = -79.123702 
+		stops = Bus.where(route: "110").find_by(day: "weekday").stops
+  	@locations = []
+  	stops.each do |stop|
+  		@locations.push({latitude: stop["lat"], longitude: stop["lon"]})
 		end
-
-    @bus_stops = locations
 	end
 
 	def show
