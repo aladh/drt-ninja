@@ -27,7 +27,7 @@
 	<select class="bus-stop">
 		<option value=0>SELECT STOP</option>
 		{{#each stopNames}}
-			<option value="{{fullName}}">{{shortName}}</option>
+			<option value={{order}}>{{shortName}}</option>
 		{{/each}}
 	</select>
 </script>
