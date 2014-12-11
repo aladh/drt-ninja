@@ -1,3 +1,42 @@
+// Make object namespace
+window.routeMap = {};
+
+// Initialize map
+routeMap.init = function(lat, lon, cor) {
+  
+  // Get variables from data attributes on DOM element
+  var latitude = lat;
+  var longitude = lon;
+  var coords = cor;
+
+  // Set map options
+  var options = {
+    zoom: 13,
+    center: new google.maps.LatLng(latitude, longitude),
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  }
+
+  // Render map
+  this.canvas = new google.maps.Map($('#map-canvas')[0], options);
+
+  // Plot points on map
+  if (coords) {
+    var _this = this;
+    coords.forEach(function(coord) {
+      _this.addMarker(coord.latitude, coord.longitude, "http://maps.google.com/mapfiles/ms/icons/yellow-dot.png");
+    });
+  }
+};
+
+// Make marker for coordinates
+routeMap.addMarker = function(latitude, longitude, image) {
+  var marker = new google.maps.Marker({
+    position: new google.maps.LatLng(latitude, longitude),
+    map: this.canvas,
+    icon: image
+  });
+}
+
 // After document has loaded
 $(document).ready(function() {
 	
@@ -10,14 +49,23 @@ $(document).ready(function() {
 		console.log(data);
 	}
 
+	// Make object of bus stop coordinates for bus route
+	function makeCoords(bus) {
+		locations = [];
+		bus.stops.forEach(function(stop) {
+			locations.push({
+				latitude: stop.lat,
+				longitude: stop.lon 
+			});
+		});
+		return locations;
+	}
+
 	// Get schedule based on route and day selection in DOM and render template
 	function getSchedule() {
 
 		// Weekday/weekend schedule
-		var day = $(".days input:checked").attr("value");
-		if (day != "") {
-			day = "-" + day;
-		}
+		var day = "?day=" + $(".days input:checked").attr("value");
 
 		// Save href of clicked link
 		var href = "/busses/" + $(".bus-route option:selected").attr("value") + day;
@@ -41,20 +89,13 @@ $(document).ready(function() {
 				// Store schedule
 				currentSchedule = data;
 
-				// Store all stop names
-				var fullStopNames = _.keys(currentSchedule);
-
-				// Shorten stop names
-				var shortStopNames = _.map(fullStopNames, function(stopName) {
-					return stopName.slice(17);
-				});
-
 				// Create object to send to template
 				var context = { stopNames: [] }
-				for (var i = 0; i < fullStopNames.length; i++) {
+				for (var i = 0; i < currentSchedule.stops.length; i++) {
 					context.stopNames[i] = {
-						shortName : shortStopNames[i],
-						fullName : fullStopNames[i]
+						shortName: currentSchedule.stops[i].name.slice(17),
+						fullName: currentSchedule.stops[i].name,
+						order: i + 1
 					}
 				}
 
@@ -63,7 +104,7 @@ $(document).ready(function() {
 				var html    = template(context);
 				$("#bus-stops").html(html);
 
-				// If stop was saved
+				// If stop was previously saved
 				if (stopValue != null) {
 					
 					// Select the bus stop previously selected
@@ -72,6 +113,9 @@ $(document).ready(function() {
 					// Reset stopValue
 					stopValue = null;
 				}
+				
+				// Render google map
+				routeMap.init(43.840035, -79.123702, makeCoords(currentSchedule));
 			}
 		});
 	}
@@ -106,10 +150,10 @@ $(document).ready(function() {
 	// When bus stop is changed
 	$("#bus-stops").on("change", ".bus-stop" , function() {
 		// Get the name of selected stop
-		var stopName = $(".bus-stop option:selected").attr("value");
+		var stopOrder = $(".bus-stop option:selected").attr("value") - 1;
 		
 		// Get the timings for the stop
-		var stopTimes = currentSchedule[stopName];
+		var stopTimes = currentSchedule.stops[stopOrder].times;
 
 		// Build template
 		var template;
@@ -118,9 +162,7 @@ $(document).ready(function() {
 		var source = $("#stop-times-template").html();
 
 		// Create object to send to template
-		var context = {
-			stopTime: stopTimes
-		}
+		var context = { stopTime: stopTimes }
 		template = Handlebars.compile(source);
 		var html    = template(context);
 		$("#stop-times").html(html);
