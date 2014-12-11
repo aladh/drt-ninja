@@ -53,10 +53,7 @@ $(document).ready(function() {
 	function getSchedule() {
 
 		// Weekday/weekend schedule
-		var day = $(".days input:checked").attr("value");
-		if (day != "") {
-			day = "-" + day;
-		}
+		var day = "?day=" + $(".days input:checked").attr("value");
 
 		// Save href of clicked link
 		var href = "/busses/" + $(".bus-route option:selected").attr("value") + day;
