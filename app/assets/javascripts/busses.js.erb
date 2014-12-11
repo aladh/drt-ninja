@@ -138,7 +138,7 @@ $(document).ready(function() {
 	// When bus stop is changed
 	$("#bus-stops").on("change", ".bus-stop" , function() {
 		// Get the name of selected stop
-		var stopName = $(".bus-stop option:selected").attr("value");
+		var stopOrder = $(".bus-stop option:selected").attr("value") - 1;
 		
 		// Get the timings for the stop
 		var stopTimes = currentSchedule[stopName];
