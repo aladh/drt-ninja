@@ -2,8 +2,8 @@
 
 <select class="bus-route">
 	<option value=0>SELECT BUS ROUTE</option>
-	<% @bus_routes.each do |k,v| %>
-		<% name = "<option value=" + v + ">" + k + "</option>" %>
+	<% @route_names.each do |k,v| %>
+		<% name = "<option value=" + k + ">" + v + "</option>" %>
 		<%= raw name %>
 	<% end %>
 </select>
