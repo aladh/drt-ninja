@@ -4,10 +4,11 @@ source 'https://rubygems.org'
 ruby '2.1.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.7'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3',  group: :development
-# Use postgres for production
-gem 'pg', group: :production
+
+# MongoDB adapter
+gem "mongoid", "~> 4.0.0"
+
+gem 'sqlite3'
 
 gem 'rails_12factor', group: :production
 # Use SCSS for stylesheets
