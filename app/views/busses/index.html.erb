@@ -9,11 +9,11 @@
 </select>
 
 <form class="days">
-	<input type="radio" name="day" value="" checked>Weekday
+	<input type="radio" name="day" value="weekday" checked>Weekday
 	<br>
-	<input type="radio" name="day" value="sat">Saturday
+	<input type="radio" name="day" value="saturday">Saturday
 	<br>
-	<input type="radio" name="day" value="sun">Sunday
+	<input type="radio" name="day" value="sunday">Sunday
 </form>
 
 <%= content_tag "div", "", id: 'map-canvas', data: {latitude: @test_coords[0], longitude: @test_coords[1], coords: @bus_stops} %>
