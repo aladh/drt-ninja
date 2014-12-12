@@ -2,13 +2,13 @@ source 'https://rubygems.org'
 
 # set ruby version
 ruby '2.1.2'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.7'
 
-# MongoDB adapter
-gem "mongoid", "~> 4.0.0"
+gem 'pg'
 
-gem 'sqlite3'
+gem 'mongoid'
 
 gem 'rails_12factor', group: :production
 # Use SCSS for stylesheets
@@ -55,4 +55,5 @@ gem 'foundation-rails'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# Geocoding
 gem 'geocoder'
