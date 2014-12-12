@@ -6,5 +6,5 @@ class Bus
 	# name: "110A Central Pickering"
 	# route: "110A"
 	# day: "weekday" or saturday or sunday
-	# stops: [{name: , lat: , lon: , times: []},{},{}]
+	# stops: [{name: , lat: , lon: , times: [] }, {}, {}]
 end
