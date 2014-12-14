@@ -73,7 +73,6 @@ namespace :busses do
 			bus[:name] = get_full_name(filename, route_names)
 			bus[:route] = get_short_name(filename)
 			bus[:day] = get_day(filename)
-			bus[:stops] = []
 			return bus
 		end
 
@@ -101,6 +100,21 @@ namespace :busses do
 			end
 		end
 
+		def make_stops(schedule, long_names, bus)
+			i = 0
+			while i < schedule.keys.length do
+				stop = {}
+				stop[:name] = schedule.keys[i]
+				stop[:location] = long_names[i]
+				stop[:ordinal] = i
+				stop[:times] = schedule.values[i]
+				s = bus.stops.build(stop)
+				s.save
+				i += 1
+			end
+		end
+
+
 		# Set filename
 		# filename = "110.json"
 
@@ -116,15 +130,22 @@ namespace :busses do
 	    # Remove everything but stop name, add city and province
 			long_names = long_stop_names(filename, schedule)
 
-			# Make bus object
+			# Make bus hash
 			bus = make_bus(filename, route_names)
 
-			# Get coordinates for each stop and push to bus object
-			geocode_stops(schedule, bus, long_names)
-
 			# Save bus object
-			Bus.create(bus)
-			puts
+			bus = Bus.create(bus)
+
+			# Make stop hashes and save them
+			make_stops(schedule, long_names, bus)
+
+			
+
+			# Get coordinates for each stop and push to bus object
+			# geocode_stops(schedule, bus, long_names)
+
+			
+			puts bus
 			puts
 			puts
 			puts "Saved #{bus[:name]}!" 	
@@ -132,16 +153,5 @@ namespace :busses do
 			puts
 			puts
 		end
-	end
-
-	desc "Find coordinates for bus stops"
-  task :locate => :environment do
-  	stops = Bus.where(route: "110").find_by(day: "weekday").stops
-  	locations = []
-  	stops.each do |stop|
-  		locations.push({latitude: stop["lat"], longitude: stop["lon"]})
-		end
-
-  	p locations
 	end
 end

@@ -50,12 +50,12 @@ $(document).ready(function() {
 	}
 
 	// Make object of bus stop coordinates for bus route
-	function makeCoords(bus) {
+	function makeCoords(schedule) {
 		locations = [];
-		bus.stops.forEach(function(stop) {
+		schedule.forEach(function(stop) {
 			locations.push({
-				latitude: stop.lat,
-				longitude: stop.lon 
+				latitude: stop.latitude,
+				longitude: stop.longitude 
 			});
 		});
 		return locations;
@@ -86,15 +86,18 @@ $(document).ready(function() {
 			// If data was received (data is JSON object for bus route)
 			if (data) {
 
+				// Print response
+				debug(data)
+
 				// Store schedule
 				currentSchedule = data;
 
 				// Create object to send to template
 				var context = { stopNames: [] }
-				for (var i = 0; i < currentSchedule.stops.length; i++) {
+				for (var i = 0; i < currentSchedule.length; i++) {
 					context.stopNames[i] = {
-						shortName: currentSchedule.stops[i].name.slice(17),
-						fullName: currentSchedule.stops[i].name,
+						shortName: currentSchedule[i].name.slice(17),
+						fullName: currentSchedule[i].name,
 						order: i + 1
 					}
 				}
@@ -153,7 +156,7 @@ $(document).ready(function() {
 		var stopOrder = $(".bus-stop option:selected").attr("value") - 1;
 		
 		// Get the timings for the stop
-		var stopTimes = currentSchedule.stops[stopOrder].times;
+		var stopTimes = currentSchedule[stopOrder].times;
 
 		// Build template
 		var template;

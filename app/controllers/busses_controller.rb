@@ -7,7 +7,7 @@ class BussesController < ApplicationController
 	end
 
 	def show
-		@schedule = Bus.where(route: params[:id]).find_by(day: params[:day])
+		@schedule = Bus.where(route: params[:id]).find_by(day: params[:day]).stops
 		render :json => @schedule 
 	end
 
