@@ -27,18 +27,18 @@ routeMap.init = function(lat, lon, cor) {
   if (coords) {
     var _this = this;
     coords.forEach(function(coord) {
-      _this.addMarker(coord.latitude, coord.longitude, "http://maps.google.com/mapfiles/ms/icons/yellow-dot.png");
       _this.addMarker(coord.latitude, coord.longitude, "http://maps.google.com/mapfiles/ms/icons/green-dot.png", coord.text);
     });
   }
 };
 
 // Make marker for coordinates
-routeMap.addMarker = function(latitude, longitude, image) {
+routeMap.addMarker = function(latitude, longitude, image, text) {
   var marker = new google.maps.Marker({
     position: new google.maps.LatLng(latitude, longitude),
     map: this.canvas,
-    icon: image
+    icon: image,
+    title: text
   });
 }
 
@@ -55,14 +55,15 @@ $(document).ready(function() {
 	}
 
 	// Make object of bus stop coordinates for bus route
-	function makeCoords(schedule) {
+	function makeCoords(schedule, names) {
 		locations = [];
-		schedule.forEach(function(stop) {
+		for (var i = 0; i < schedule.length; i ++) {
 			locations.push({
-				latitude: stop.latitude,
-				longitude: stop.longitude 
+				latitude: schedule[i].latitude,
+				longitude: schedule[i].longitude,
+				text: names[i]
 			});
-		});
+		}
 		return locations;
 	}
 
@@ -119,21 +120,37 @@ $(document).ready(function() {
 					stopValue = null;
 				}
 
-				// Geolocate
-				if ("geolocation" in navigator) {
-					navigator.geolocation.getCurrentPosition(function(position) {
-						routeMap.location = [position.coords.latitude, position.coords.longitude];
-						// Render google map
-						routeMap.init(routeMap.location[0], routeMap.location[1], makeCoords(currentSchedule));
-					});
-				} else {
-					routeMap.location = [43.840035, -79.123702];
-					// Render google map
-					routeMap.init(routeMap.location[0], routeMap.location[1], makeCoords(currentSchedule));
+				// Make stop names for map
+				var names = [];
+				for (var i = 0; i < currentSchedule.length; i++) {
+					names[i] = currentSchedule[i].name.slice(17);
 				}
+
+				// Render google map
+				routeMap.init(routeMap.location[0], routeMap.location[1], makeCoords(currentSchedule, names));
 			}
 		});
 	}
+
+	// Geolocate
+	// navigator.geolocation.getCurrentPosition(function(position) {
+		// routeMap.location = [position.coords.latitude, position.coords.longitude];
+		routeMap.location = [43.840035, -79.123702];
+		console.log('Location obtained!')
+		// Send coordinates and get nearby stops
+		$.ajax({
+			url: '/busses/?lat=' + routeMap.location[0] + '&lon=' + routeMap.location[1],
+			type: 'GET',
+			dataType: 'json'
+		}).done(function(data) {
+			debug(data);
+			var text = ""
+			data.forEach(function(stop) {
+				text = text + $.trim(stop.name.slice(17).replace(/[a-z]/g,"")) + ', ';
+			});
+			$('#nearby-stops').text(text);
+		});
+	// });
 
 	// When bus route is changed
 	$(".bus-route").on("change", function() {
