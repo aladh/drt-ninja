@@ -28,6 +28,7 @@ routeMap.init = function(lat, lon, cor) {
     var _this = this;
     coords.forEach(function(coord) {
       _this.addMarker(coord.latitude, coord.longitude, "http://maps.google.com/mapfiles/ms/icons/yellow-dot.png");
+      _this.addMarker(coord.latitude, coord.longitude, "http://maps.google.com/mapfiles/ms/icons/green-dot.png", coord.text);
     });
   }
 };
