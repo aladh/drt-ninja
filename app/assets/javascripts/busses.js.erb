@@ -11,7 +11,7 @@ routeMap.init = function(lat, lon, cor) {
 
   // Set map options
   var options = {
-    zoom: 10,
+    zoom: 12,
     center: new google.maps.LatLng(latitude, longitude),
     mapTypeId: google.maps.MapTypeId.ROADMAP
   }
@@ -86,9 +86,6 @@ $(document).ready(function() {
 			// If data was received (data is JSON object for bus route)
 			if (data) {
 
-				// Print response
-				debug(data)
-
 				// Store schedule
 				currentSchedule = data;
 
@@ -116,9 +113,19 @@ $(document).ready(function() {
 					// Reset stopValue
 					stopValue = null;
 				}
-				
-				// Render google map
-				routeMap.init(43.840035, -79.123702, makeCoords(currentSchedule));
+
+				// Geolocate
+				if ("geolocation" in navigator) {
+					navigator.geolocation.getCurrentPosition(function(position) {
+						routeMap.location = [position.coords.latitude, position.coords.longitude];
+						// Render google map
+						routeMap.init(routeMap.location[0], routeMap.location[1], makeCoords(currentSchedule));
+					});
+				} else {
+					routeMap.location = [43.840035, -79.123702];
+					// Render google map
+					routeMap.init(routeMap.location[0], routeMap.location[1], makeCoords(currentSchedule));
+				}
 			}
 		});
 	}
