@@ -19,6 +19,10 @@ routeMap.init = function(lat, lon, cor) {
   // Render map
   this.canvas = new google.maps.Map($('#map-canvas')[0], options);
 
+  // Add user's position
+  this.addMarker(latitude, longitude, "http://maps.google.com/mapfiles/ms/icons/red-dot.png", "You are here!")
+
+
   // Plot points on map
   if (coords) {
     var _this = this;
