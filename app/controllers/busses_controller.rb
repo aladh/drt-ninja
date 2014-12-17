@@ -7,8 +7,11 @@ class BussesController < ApplicationController
 			@stops.delete_if do |stop|
 				stop.bus.day == 'saturday' || stop.bus.day == 'sunday'
 			end
-			p @stops.count
-			render :json => @stops
+			@stops = @stops.group_by {|stop| stop.bus.route}
+			@stops.keys.each {|key| @stops[key] = @stops[key][0]}
+			@nearby = []
+			@stops.keys.each {|key| @nearby.push({route: key, stop: @stops[key]})}
+			render :json => @nearby
 		else
 			f = File.open("app/assets/javascripts/route_names.json", "r")
 			@route_names = JSON.parse(f.read)
