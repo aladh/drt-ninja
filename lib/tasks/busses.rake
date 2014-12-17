@@ -154,4 +154,21 @@ namespace :busses do
 			puts
 		end
 	end
+
+	desc "Parse times and save"
+	task :times => :environment do
+		stop = Stop.first
+		# Stop.all.each do |stop|
+			stop.times.each_with_index do |time, i|
+				if stop.times[i].length > 3
+					stop.coded_times.push(stop.times[i]+"m")	
+				end
+			end
+			p stop.times
+			# stop.coded_times = t
+			p stop.coded_times
+			p stop.save
+			p stop.coded_times
+		# end
+	end
 end
