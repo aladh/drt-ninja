@@ -17,24 +17,24 @@ ActiveRecord::Schema.define(version: 20141217205210) do
   enable_extension "plpgsql"
 
   create_table "buses", force: true do |t|
-    t.string   "name"
-    t.string   "route"
-    t.string   "day"
+    t.string   "name",       limit: 255
+    t.string   "route",      limit: 255
+    t.string   "day",        limit: 255
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "stops", force: true do |t|
-    t.string   "name"
-    t.string   "location"
+    t.string   "name",        limit: 255
+    t.string   "location",    limit: 255
     t.float    "latitude"
     t.float    "longitude"
-    t.string   "times",       default: [], array: true
+    t.string   "times",                   default: [], array: true
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "ordinal"
     t.integer  "bus_id"
-    t.datetime "coded_times", default: [], array: true
+    t.time     "coded_times",             default: [], array: true
   end
 
 end
