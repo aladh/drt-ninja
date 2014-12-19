@@ -1,5 +1,5 @@
 class AddCodedTimesToStop < ActiveRecord::Migration
   def change
-  	add_column :stops, :coded_times, :time, array: true, default: '{}'
+  	add_column :stops, :coded_times, :datetime, array: true, default: []
   end
 end
