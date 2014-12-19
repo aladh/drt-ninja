@@ -29,8 +29,12 @@ body {
     margin: 0px;
 }
 
+.stop-name {
+    margin: 5px;
+}
+
 #map-canvas {
-	height: 400px;
+	height: 20em;
 	width: 100%;
     border-bottom: solid 5px DarkGreen;
 }
