@@ -184,4 +184,14 @@ namespace :busses do
 			puts "Saved!"
 		end
 	end
+
+	desc "Order stop times as ascending"
+	task :order => :environment do
+		Stop.all.each do |stop|
+			stop.coded_times = stop.coded_times.sort {|a, b| a.to_i <=> b.to_i}
+			stop.save
+			puts "Saved Stop # #{stop.id}"
+		end
+	end
+
 end
