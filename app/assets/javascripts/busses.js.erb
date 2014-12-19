@@ -152,6 +152,10 @@ $(document).ready(function() {
 				var template;
 				// Template source on index view
 				var source = $("#nearby-stops-template").html();
+				// Convert time format
+				data.forEach(function(nearby) {
+					nearby.time = moment(nearby.time).format('h:mm a');
+				});
 				// Create object to send to template
 				var context = { nearby: data }
 				// Compile and render bus stops template
