@@ -143,21 +143,34 @@ $(document).ready(function() {
 			type: 'GET',
 			dataType: 'json'
 		}).done(function(data) {
-			debug(data);
 	
 			// If data was received
 			if (data) {
+
+				// Log data to console
+				debug(data);
+
+				// Assign to variable
+				nearbyStops = data;
 
 				// Make handlebars template
 				var template;
 				// Template source on index view
 				var source = $("#nearby-stops-template").html();
 				// Convert time format
-				data.forEach(function(nearby) {
-					nearby.time = moment(nearby.time).format('h:mm a');
+				
+				// Format times when present
+				nearbyStops.forEach(function(stop) {
+						formattedTime = moment(stop.time).format('h:mm a') + " - " + moment(stop.time).fromNow();
+						stop.time = formattedTime;
+						name = "value=\'" + stop.route + "\']";
+						stop.route = $(".bus-route>option[" + name).text();
+						stop.stop.name = stop.stop.name.slice(17);
 				});
+
+				
 				// Create object to send to template
-				var context = { nearby: data }
+				var context = { nearby: nearbyStops }
 				// Compile and render bus stops template
 				template = Handlebars.compile(source);
 				var html = template(context);
