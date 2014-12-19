@@ -16,6 +16,7 @@
 //= require turbolinks
 //= require handlebars.js
 //= require underscore.js
+//= require moment.js
 //= require_tree .
 
 $(function(){ $(document).foundation(); });
