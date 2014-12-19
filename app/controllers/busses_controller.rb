@@ -24,6 +24,7 @@ class BussesController < ApplicationController
 					@nearby.push({route: key, stop: @stops[key], time: next_time}) 
 				end
 			end
+			@nearby = @nearby.sort {|a,b| a[:time].to_i <=> b[:time].to_i}
 			render :json => @nearby
 		else
 			f = File.open("app/assets/javascripts/route_names.json", "r")
