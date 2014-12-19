@@ -19,6 +19,16 @@ body {
 	}
 }
 
+.nearby-bus {
+    border: solid 1px DarkGreen;
+    box-shadow: 3px 3px 3px #888888;
+    margin: 5px;
+}
+
+#nearby-busses {
+    margin: 0px;
+}
+
 #map-canvas {
 	height: 400px;
 	width: 100%;

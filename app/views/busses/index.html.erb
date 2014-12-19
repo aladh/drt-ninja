@@ -53,11 +53,13 @@
 <h2>Near You</h2>
 <ul id="nearby-busses">
 	{{#each nearby}}
-		<l1>{{this.route}}
-			<ul>
-				<l1>{{this.stop.name}} - {{this.time}}</l1>
-			</ul>
-		</l1>
+		<div class="nearby-bus">
+			<l1>{{this.route}}
+				<ul>
+					<l1>{{this.stop.name}} - {{this.time}}</l1>
+				</ul>
+			</l1>
+		</div>
 	{{/each}}
 </ul>
 </script>
