@@ -154,4 +154,44 @@ namespace :busses do
 			puts
 		end
 	end
+
+	desc "Parse times and save"
+	task :times => :environment do
+		# Require the time library to gain access to Time.parse
+		require 'time'
+		
+		# Parse time	
+		def parse_time(time, tomorrow=false)
+			day = tomorrow ? "2" : "1"
+			Time.parse(time + "m 2014-01-0" + day)
+		end
+
+		Stop.all.each do |stop|
+			# Empty array
+			coded_times = []
+
+			stop.times.each do |time|
+
+				# Skip times that are "-"
+				if time != "-"
+					# if 12:37x change to 12:37am next day
+					parsed_time = time.end_with?("x") ? parse_time(time.sub(/x$/, "a"), true) : parse_time(time)
+					coded_times << parsed_time 	
+				end
+			end
+			stop.coded_times = coded_times
+			stop.save
+			puts "Saved!"
+		end
+	end
+
+	desc "Order stop times as ascending"
+	task :order => :environment do
+		Stop.all.each do |stop|
+			stop.coded_times = stop.coded_times.sort {|a, b| a.to_i <=> b.to_i}
+			stop.save
+			puts "Saved Stop # #{stop.id}"
+		end
+	end
+
 end

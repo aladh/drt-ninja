@@ -19,21 +19,26 @@ routeMap.init = function(lat, lon, cor) {
   // Render map
   this.canvas = new google.maps.Map($('#map-canvas')[0], options);
 
+  // Add user's position
+  this.addMarker(latitude, longitude, "http://maps.google.com/mapfiles/ms/icons/red-dot.png", "You are here!")
+
+
   // Plot points on map
   if (coords) {
     var _this = this;
     coords.forEach(function(coord) {
-      _this.addMarker(coord.latitude, coord.longitude, "http://maps.google.com/mapfiles/ms/icons/yellow-dot.png");
+      _this.addMarker(coord.latitude, coord.longitude, "http://maps.google.com/mapfiles/ms/icons/green-dot.png", coord.text);
     });
   }
 };
 
 // Make marker for coordinates
-routeMap.addMarker = function(latitude, longitude, image) {
+routeMap.addMarker = function(latitude, longitude, image, text) {
   var marker = new google.maps.Marker({
     position: new google.maps.LatLng(latitude, longitude),
     map: this.canvas,
-    icon: image
+    icon: image,
+    title: text
   });
 }
 
@@ -50,14 +55,15 @@ $(document).ready(function() {
 	}
 
 	// Make object of bus stop coordinates for bus route
-	function makeCoords(schedule) {
+	function makeCoords(schedule, names) {
 		locations = [];
-		schedule.forEach(function(stop) {
+		for (var i = 0; i < schedule.length; i ++) {
 			locations.push({
-				latitude: stop.latitude,
-				longitude: stop.longitude 
+				latitude: schedule[i].latitude,
+				longitude: schedule[i].longitude,
+				text: names[i]
 			});
-		});
+		}
 		return locations;
 	}
 
@@ -114,21 +120,73 @@ $(document).ready(function() {
 					stopValue = null;
 				}
 
-				// Geolocate
-				if ("geolocation" in navigator) {
-					navigator.geolocation.getCurrentPosition(function(position) {
-						routeMap.location = [position.coords.latitude, position.coords.longitude];
-						// Render google map
-						routeMap.init(routeMap.location[0], routeMap.location[1], makeCoords(currentSchedule));
-					});
-				} else {
-					routeMap.location = [43.840035, -79.123702];
-					// Render google map
-					routeMap.init(routeMap.location[0], routeMap.location[1], makeCoords(currentSchedule));
+				// Make stop names for map
+				var names = [];
+				for (var i = 0; i < currentSchedule.length; i++) {
+					names[i] = currentSchedule[i].name.slice(17);
 				}
+
+				// Render google map
+				routeMap.init(routeMap.location[0], routeMap.location[1], makeCoords(currentSchedule, names));
 			}
 		});
 	}
+
+	// Geolocate
+	// navigator.geolocation.getCurrentPosition(function(position) {
+		// routeMap.location = [position.coords.latitude, position.coords.longitude];
+		routeMap.location = [43.828981, -79.086250];
+		console.log('Location obtained!')
+		// Send coordinates and get nearby stops
+		$.ajax({
+			url: '/busses/?lat=' + routeMap.location[0] + '&lon=' + routeMap.location[1],
+			type: 'GET',
+			dataType: 'json'
+		}).done(function(data) {
+	
+			// If data was received
+			if (data) {
+
+				// Log data to console
+				debug(data);
+
+				// Assign to variable
+				nearbyStops = data;
+
+				// Make handlebars template
+				var template;
+				// Template source on index view
+				var source = $("#nearby-stops-template").html();
+				// Convert time format
+				
+				// Format times when present
+				nearbyStops.forEach(function(stop) {
+						formattedTime = moment(stop.time).format('h:mm a') + " - " + moment(stop.time).fromNow();
+						stop.time = formattedTime;
+						name = "value=\'" + stop.route + "\']";
+						stop.route = $(".bus-route>option[" + name).text();
+						stop.stop.name = stop.stop.name.slice(17);
+				});
+
+				
+				// Create object to send to template
+				var context = { nearby: nearbyStops }
+				// Compile and render bus stops template
+				template = Handlebars.compile(source);
+				var html = template(context);
+				$("#nearby-stops").html(html);
+
+				// Render google map
+				routeMap.init(routeMap.location[0], routeMap.location[1]);
+				
+			} else {
+				
+				// Notify the user
+				$("#nearby-stops-template").html("<h3>Nothing Near You</h3>");
+			}
+				
+		});
+	// });
 
 	// When bus route is changed
 	$(".bus-route").on("change", function() {
