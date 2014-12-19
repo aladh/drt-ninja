@@ -7,7 +7,8 @@
 <div id="nearby-stops"></div>
 
 <div id="bus-routes">	
-	<h3>Route:</h3>
+	<h3>See Schedules</h3>
+	<h4>Route:</h4>
 	<select class="bus-route">
 		<option value=0>SELECT BUS ROUTE</option>
 		<% @route_names.each do |k,v| %>
@@ -28,7 +29,7 @@
 <div id="stop-times"></div>
 
 <script id="bus-stops-template" type="text/x-handlebars-template">
-	<h3>Stop:</h3>
+	<h4>Stop:</h4>
 	<select class="bus-stop">
 		<option value=0>SELECT STOP</option>
 		{{#each stopNames}}
@@ -38,7 +39,7 @@
 </script>
 
 <script id="stop-times-template" type="text/x-handlebars-template">
-	<h3>Stop Times</h3>
+	<h4>Stop Times</h4>
 	<ul class="stop-times">
 		{{#each stopTime}}
 			<li>
@@ -49,7 +50,7 @@
 </script>
 
 <script id="nearby-stops-template" type="text/x-handlebars-template">
-<h3>Near You</h3>
+<h2>Near You</h2>
 <ul id="nearby-busses">
 	{{#each nearby}}
 		<l1>{{this.route}}

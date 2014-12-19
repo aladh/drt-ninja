@@ -189,7 +189,8 @@ $(document).ready(function() {
 	// });
 
 	// Animate heading
-	$("h1").toggleClass("animated").toggleClass("flip");
+	$("#animation-container").toggleClass("animated flip");
+	$("#animation-container").toggleClass("animated flip");
 
 	// When bus route is changed
 	$(".bus-route").on("change", function() {
