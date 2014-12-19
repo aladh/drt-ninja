@@ -162,6 +162,9 @@ $(document).ready(function() {
 				template = Handlebars.compile(source);
 				var html = template(context);
 				$("#nearby-stops").html(html);
+
+				// Render google map
+				routeMap.init(routeMap.location[0], routeMap.location[1]);
 				
 			} else {
 				
