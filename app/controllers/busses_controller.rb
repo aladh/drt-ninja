@@ -1,4 +1,5 @@
 class BussesController < ApplicationController
+	require 'time'
 
 	def index
 		if request.xhr? && params[:lat] && params[:lon]
