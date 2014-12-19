@@ -39,7 +39,7 @@ gem 'binding_of_caller',        group: :development
 gem 'pry-rails',        group: :development
 
 # CSS framework for styles
-gem 'foundation-rails'
+gem 'foundation-rails', '5.4.5.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
