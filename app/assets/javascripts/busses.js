@@ -135,7 +135,7 @@ $(document).ready(function() {
 	// Geolocate
 	// navigator.geolocation.getCurrentPosition(function(position) {
 		// routeMap.location = [position.coords.latitude, position.coords.longitude];
-		routeMap.location = [43.828981, -79.086250];
+		routeMap.location = [43.839968, -79.121264];
 		console.log('Location obtained!')
 		// Send coordinates and get nearby stops
 		$.ajax({
@@ -187,6 +187,9 @@ $(document).ready(function() {
 				
 		});
 	// });
+
+	// Animate heading
+	$("h1").toggleClass("animated").toggleClass("flip");
 
 	// When bus route is changed
 	$(".bus-route").on("change", function() {
