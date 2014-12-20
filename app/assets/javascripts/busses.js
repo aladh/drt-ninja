@@ -133,9 +133,9 @@ $(document).ready(function() {
 	}
 
 	// Geolocate
-	// navigator.geolocation.getCurrentPosition(function(position) {
-		// routeMap.location = [position.coords.latitude, position.coords.longitude];
-		routeMap.location = [43.837963, -79.087224];
+	navigator.geolocation.getCurrentPosition(function(position) {
+		routeMap.location = [position.coords.latitude, position.coords.longitude];
+		//routeMap.location = [43.837963, -79.087224];
 		console.log('Location obtained!')
 		// Send coordinates and get nearby stops
 		$.ajax({
@@ -186,7 +186,7 @@ $(document).ready(function() {
 			}
 				
 		});
-	// });
+	});
 
 	// Animate heading
 
