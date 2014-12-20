@@ -3,7 +3,7 @@ class BussesController < ApplicationController
 
 	def index
 		if request.xhr? && params[:lat] && params[:lon]
-			@stops = Stop.near([params[:lat], params[:lon]], 0.2, units: :km).to_a
+			@stops = Stop.near([params[:lat], params[:lon]], 0.25, units: :km).to_a
 			@stops.delete_if do |stop|
 				stop.bus.day == 'saturday' || stop.bus.day == 'sunday'
 			end
