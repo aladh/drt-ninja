@@ -4,6 +4,6 @@ Ruby version: 2.1.2
 
 Rails dependencies: See Gemfile.
 
-JS Dependencies: - Underscore.js, Handlebars.js, Moment.js
+JS Dependencies: Underscore.js, Handlebars.js, Moment.js
 
 Database: PostgreSQL
