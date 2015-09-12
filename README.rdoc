@@ -8,6 +8,6 @@ JS Dependencies: Underscore.js, Handlebars.js, Moment.js
 
 Database: PostgreSQL
 
-Demo: drt.alishan.me
+Demo: http://drt.alishan.me
 
 Note: The schedules have changed, and so the data is out of date. The app is not being maintained.
